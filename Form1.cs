@@ -42,7 +42,7 @@ namespace Project_OOP_Trio_Rawr
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            CreateFoods();
         }
 
         private void CreateFoods()
@@ -59,12 +59,18 @@ namespace Project_OOP_Trio_Rawr
             pictureFood0.Tag = ((Foods)items).Ingredients[0].Name;
             pictureFood1.Tag = ((Foods)items).Ingredients[1].Name;
             pictureFood2.Tag = ((Foods)items).Ingredients[2].Name;
-            pictureFood3.Tag = ((Foods)items).Ingredients[4].Name;
+            pictureFood3.Tag = ((Foods)items).Ingredients[3].Name;
 
             pictureFood0.Image = ((Foods)items).Ingredients[0].Picture;
             pictureFood1.Image = ((Foods)items).Ingredients[1].Picture;
             pictureFood2.Image = ((Foods)items).Ingredients[2].Picture;
-            pictureFood3.Image = ((Foods)items).Ingredients[4].Picture;
+            pictureFood3.Image = ((Foods)items).Ingredients[3].Picture;
+
+            items = new Foods("healthy salad", Properties.Resources.salad, 25000);
+            listofitems.Add(items);
+            ((Foods)items).AddIngredient("plate", Properties.Resources.plate);
+            ((Foods)items).AddIngredient("letuce", Properties.Resources.lettuce);
+            ((Foods)items).AddIngredient("mayo", Properties.Resources.mayo);
         }
     }
 }
