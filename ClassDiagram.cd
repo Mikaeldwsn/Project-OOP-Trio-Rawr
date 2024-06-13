@@ -8,31 +8,38 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Project_OOP_Trio_Rawr.Items">
-    <Position X="5.25" Y="1.25" Width="1.5" />
+    <Position X="5.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAIAAAAAAAAAAAQAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAABgAAAAYAAAAAAAAAAAQYAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Items.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Project_OOP_Trio_Rawr.Foods">
-    <Position X="4" Y="3" Width="1.5" />
+    <Position X="3.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAIAAAAA=</HashCode>
       <FileName>Foods.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Project_OOP_Trio_Rawr.Beverages">
-    <Position X="6.25" Y="3" Width="1.5" />
+    <Position X="5.25" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Beverages.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Project_OOP_Trio_Rawr.Merchandise">
-    <Position X="8.25" Y="3" Width="1.5" />
+    <Position X="7" Y="4.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Merchandise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_OOP_Trio_Rawr.Ingridients">
+    <Position X="3.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingridients.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

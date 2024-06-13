@@ -6,20 +6,28 @@ using System.Text;
 
 namespace Project_OOP_Trio_Rawr
 {
-    public class Items
+    public abstract class Items
     {
         private string name;
         private Image picture;
         private int price;
-        
-        protected string DisplayItems()
+
+        protected Items(string name, Image picture, int price)
+        {
+            Name = name;
+            Picture = picture;
+            Price = price;
+        }
+
+        public string Name { get => name; set => name = value; }
+        public Image Picture { get => picture; set => picture = value; }
+        public int Price { get => price; set => price = value; }
+
+        protected virtual string DisplayItems()
         {
             return "";
         }
 
-        public string Display()
-        {
-            return "";
-        }
+        public abstract string Display();
     }
 }
