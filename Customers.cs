@@ -1,8 +1,10 @@
-﻿using System;
+﻿using Microsoft.Win32;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Drawing;
 using System.Linq;
+using System.Resources;
 using System.Text;
 
 namespace Project_OOP_Trio_Rawr
@@ -24,14 +26,14 @@ namespace Project_OOP_Trio_Rawr
         public Image Picture { get => picture; set => picture = value; }
         public int Type { get => type; set => type = value; }
 
-        public string display()
+        public Image display()
         {
-            return "";
+            return Properties.Resources.player;
         }
 
-        public void AddOrder()
-        {
+        //public Items AddOrder()
+        //{
 
-        }
+        //}
     }
 }
