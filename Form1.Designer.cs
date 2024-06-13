@@ -60,13 +60,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox21 = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.pictureBox26 = new System.Windows.Forms.PictureBox();
+            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.newGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -94,10 +97,11 @@
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
             this.panel4.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
+            this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox3
@@ -354,6 +358,7 @@
             this.panel2.Controls.Add(this.pictureBox21);
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.panel3);
+            this.panel2.Controls.Add(this.menuStrip1);
             this.panel2.Location = new System.Drawing.Point(-8, -4);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(909, 265);
@@ -364,7 +369,7 @@
             this.panel5.Controls.Add(this.label3);
             this.panel5.Controls.Add(this.label2);
             this.panel5.Controls.Add(this.label1);
-            this.panel5.Location = new System.Drawing.Point(774, 22);
+            this.panel5.Location = new System.Drawing.Point(774, 39);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(123, 120);
             this.panel5.TabIndex = 2;
@@ -413,10 +418,20 @@
             // 
             this.panel4.Controls.Add(this.pictureBox26);
             this.panel4.Controls.Add(this.pictureBox25);
-            this.panel4.Location = new System.Drawing.Point(555, 24);
+            this.panel4.Location = new System.Drawing.Point(555, 41);
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(143, 120);
             this.panel4.TabIndex = 1;
+            // 
+            // pictureBox26
+            // 
+            this.pictureBox26.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox26.Location = new System.Drawing.Point(40, 12);
+            this.pictureBox26.Name = "pictureBox26";
+            this.pictureBox26.Size = new System.Drawing.Size(57, 73);
+            this.pictureBox26.TabIndex = 22;
+            this.pictureBox26.TabStop = false;
             // 
             // pictureBox25
             // 
@@ -435,7 +450,7 @@
             this.panel3.Controls.Add(this.label5);
             this.panel3.Controls.Add(this.label4);
             this.panel3.Controls.Add(this.pictureBox24);
-            this.panel3.Location = new System.Drawing.Point(26, 22);
+            this.panel3.Location = new System.Drawing.Point(26, 39);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(278, 122);
             this.panel3.TabIndex = 0;
@@ -479,15 +494,30 @@
             this.pictureBox24.TabIndex = 19;
             this.pictureBox24.TabStop = false;
             // 
-            // pictureBox26
+            // menuStrip1
             // 
-            this.pictureBox26.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox26.Location = new System.Drawing.Point(40, 12);
-            this.pictureBox26.Name = "pictureBox26";
-            this.pictureBox26.Size = new System.Drawing.Size(57, 73);
-            this.pictureBox26.TabIndex = 22;
-            this.pictureBox26.TabStop = false;
+            this.menuStrip1.BackColor = System.Drawing.Color.DarkSalmon;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
+            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newGameToolStripMenuItem,
+            this.exitToolStripMenuItem});
+            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.Size = new System.Drawing.Size(909, 28);
+            this.menuStrip1.TabIndex = 18;
+            this.menuStrip1.Text = "menuStrip1";
+            // 
+            // newGameToolStripMenuItem
+            // 
+            this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
+            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(96, 24);
+            this.newGameToolStripMenuItem.Text = "New Game";
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(47, 24);
+            this.exitToolStripMenuItem.Text = "Exit";
             // 
             // Form1
             // 
@@ -503,6 +533,7 @@
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox4);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
@@ -530,15 +561,18 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
             this.panel4.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
+            this.menuStrip1.ResumeLayout(false);
+            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -583,6 +617,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox24;
         private System.Windows.Forms.PictureBox pictureBox26;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem newGameToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
     }
 }
 
