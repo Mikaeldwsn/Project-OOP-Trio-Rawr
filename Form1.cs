@@ -44,14 +44,14 @@ namespace Project_OOP_Trio_Rawr
         {
 
         }
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
 
         private void CreateFoods()
         {
-            
+            items = new Foods("burger", Properties.Resources.burger, 50000);
+            listofitems.Add(items);
+
+            ((Foods)items).AddIngredient("plate", Properties.Resources.plate);
+
         }
     }
 }
