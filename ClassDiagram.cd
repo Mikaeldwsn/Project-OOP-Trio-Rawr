@@ -3,36 +3,57 @@
   <Class Name="Project_OOP_Trio_Rawr.Customers">
     <Position X="2.25" Y="1.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAgAAgAIAAAAAAAAAAAAQAAAEFAAAAAQAAAAAAAAA=</HashCode>
       <FileName>Customers.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Project_OOP_Trio_Rawr.Items">
-    <Position X="5.25" Y="1.25" Width="1.5" />
+    <Position X="5.5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAABAAAAAIAAAAAAAAAAAQAAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAABgAAAAYAAAAAAAAAAAQYAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Items.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Project_OOP_Trio_Rawr.Foods">
-    <Position X="4" Y="3" Width="1.5" />
+    <Position X="3.5" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAIAAAIAAAASAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Foods.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Project_OOP_Trio_Rawr.Beverages">
-    <Position X="6.25" Y="3" Width="1.5" />
+    <Position X="5.25" Y="4.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <HashCode>AAAAAAAAAAAAgAAAAIAAAQAAAAAgAAAAIAAAAAAAAAA=</HashCode>
       <FileName>Beverages.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="Project_OOP_Trio_Rawr.Merchandise">
-    <Position X="8.25" Y="3" Width="1.5" />
+    <Position X="7" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAgAAAAoAAAAAAAAAAAAA=</HashCode>
+      <FileName>Merchandise.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_OOP_Trio_Rawr.Ingredients">
+    <Position X="3.5" Y="7.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAIAAAAAAAAAAAQQAAAAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Ingridients.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_OOP_Trio_Rawr.Players">
+    <Position X="7.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQQAAAAEIAAAACAAAAAAAAA=</HashCode>
+      <FileName>Players.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Project_OOP_Trio_Rawr.Time">
+    <Position X="9" Y="1.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Merchandise.cs</FileName>
+      <FileName>Time.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />

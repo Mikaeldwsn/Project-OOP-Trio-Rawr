@@ -1,37 +1,28 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 
 namespace Project_OOP_Trio_Rawr
 {
-    public class Customers
+    public class Ingredients
     {
         private string name;
         private Image picture;
-        private int type;
 
-        public Customers(string name, Image picture, int type)
+        public Ingredients(string name, Image picture)
         {
             Name = name;
             Picture = picture;
-            Type = type;
         }
 
         public string Name { get => name; set => name = value; }
         public Image Picture { get => picture; set => picture = value; }
-        public int Type { get => type; set => type = value; }
 
-        public string display()
+        public string Display()
         {
             return "";
-        }
-
-        public void AddOrder()
-        {
-
         }
     }
 }
