@@ -8,18 +8,23 @@ namespace Project_OOP_Trio_Rawr
 {
     public class Foods : Items
     {
-        private List<Ingridients> ingridients;
+        private List<Ingredients> ingredients;
 
-        public List<Ingridients> Ingridients { get => ingridients; set => ingridients = value; }
+        public List<Ingredients> Ingredients { get => ingredients; set => ingredients = value; }
 
         public Foods(string name, Image picture, int price):base(name, picture, price)
         {
-            this.Ingridients = new List<Ingridients>();
+            this.Ingredients = new List<Ingredients>();
         }
 
         public override string Display()
         {
             return "";
+        }
+
+        public void AddIngredient()
+        {
+
         }
     }
 }
