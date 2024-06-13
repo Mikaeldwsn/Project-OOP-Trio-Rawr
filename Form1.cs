@@ -18,7 +18,10 @@ namespace Project_OOP_Trio_Rawr
         Items items;
         Customers customers;
         Players players;
+        Time time;
+        public List<Ingredients> listselectedFood = new List<Ingredients>();
 
+        string filename = "game.dat";
         public Form1()
         {
             InitializeComponent();
@@ -32,7 +35,15 @@ namespace Project_OOP_Trio_Rawr
 
             label3.Visible = true;
             label1.Visible = true;
-            label2.Visible = true;
+           
+
+            remainingcustomers = 5;
+            label3.Text = "Remaining Customers: " + remainingcustomers.ToString();
+           // time = new Time(0,0,0);
+           //label1.Text= 
+           
+            //play sound
+            
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -41,6 +52,11 @@ namespace Project_OOP_Trio_Rawr
         }
 
         private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
         {
 
         }
