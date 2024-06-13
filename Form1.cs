@@ -12,6 +12,13 @@ namespace Project_OOP_Trio_Rawr
 {
     public partial class Form1 : Form
     {
+        public List<Items> listofitems = new List<Items> ();
+
+        int remainingcustomers;
+        Items items;
+        Customers customers;
+        Players players;
+
         public Form1()
         {
             InitializeComponent();
@@ -31,6 +38,11 @@ namespace Project_OOP_Trio_Rawr
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
