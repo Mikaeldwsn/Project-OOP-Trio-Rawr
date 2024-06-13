@@ -41,16 +41,16 @@
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
             this.pictureBox20 = new System.Windows.Forms.PictureBox();
-            this.pictureBox18 = new System.Windows.Forms.PictureBox();
+            this.pictureFood3 = new System.Windows.Forms.PictureBox();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox14 = new System.Windows.Forms.PictureBox();
             this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.pictureFood2 = new System.Windows.Forms.PictureBox();
+            this.pictureFood1 = new System.Windows.Forms.PictureBox();
+            this.pictureFood0 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
@@ -58,7 +58,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.pictureBox21 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxCustomer = new System.Windows.Forms.PictureBox();
             this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox26 = new System.Windows.Forms.PictureBox();
             this.pictureBox25 = new System.Windows.Forms.PictureBox();
@@ -69,6 +69,7 @@
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.newGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.newGameToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -81,21 +82,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFood3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFood2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFood1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFood0)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel5.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCustomer)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
@@ -107,6 +108,7 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox3.Location = new System.Drawing.Point(750, 98);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(46, 63);
@@ -169,16 +171,16 @@
             this.panel1.Controls.Add(this.pictureBox22);
             this.panel1.Controls.Add(this.pictureBox19);
             this.panel1.Controls.Add(this.pictureBox20);
-            this.panel1.Controls.Add(this.pictureBox18);
+            this.panel1.Controls.Add(this.pictureFood3);
             this.panel1.Controls.Add(this.pictureBox17);
             this.panel1.Controls.Add(this.pictureBox16);
             this.panel1.Controls.Add(this.pictureBox15);
             this.panel1.Controls.Add(this.pictureBox14);
             this.panel1.Controls.Add(this.pictureBox13);
             this.panel1.Controls.Add(this.pictureBox12);
-            this.panel1.Controls.Add(this.pictureBox11);
-            this.panel1.Controls.Add(this.pictureBox6);
-            this.panel1.Controls.Add(this.pictureBox5);
+            this.panel1.Controls.Add(this.pictureFood2);
+            this.panel1.Controls.Add(this.pictureFood1);
+            this.panel1.Controls.Add(this.pictureFood0);
             this.panel1.Controls.Add(this.pictureBox2);
             this.panel1.Controls.Add(this.pictureBox1);
             this.panel1.Controls.Add(this.pictureBox3);
@@ -210,6 +212,7 @@
             // pictureBox23
             // 
             this.pictureBox23.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox23.Location = new System.Drawing.Point(831, 242);
             this.pictureBox23.Name = "pictureBox23";
             this.pictureBox23.Size = new System.Drawing.Size(46, 63);
@@ -219,6 +222,7 @@
             // pictureBox22
             // 
             this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox22.Location = new System.Drawing.Point(28, 242);
             this.pictureBox22.Name = "pictureBox22";
             this.pictureBox22.Size = new System.Drawing.Size(46, 63);
@@ -228,7 +232,7 @@
             // pictureBox19
             // 
             this.pictureBox19.BackColor = System.Drawing.Color.White;
-            this.pictureBox19.Location = new System.Drawing.Point(398, 180);
+            this.pictureBox19.Location = new System.Drawing.Point(398, 207);
             this.pictureBox19.Name = "pictureBox19";
             this.pictureBox19.Size = new System.Drawing.Size(142, 125);
             this.pictureBox19.TabIndex = 2;
@@ -237,24 +241,27 @@
             // pictureBox20
             // 
             this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox20.Location = new System.Drawing.Point(586, -1);
             this.pictureBox20.Name = "pictureBox20";
             this.pictureBox20.Size = new System.Drawing.Size(46, 63);
             this.pictureBox20.TabIndex = 16;
             this.pictureBox20.TabStop = false;
             // 
-            // pictureBox18
+            // pictureFood3
             // 
-            this.pictureBox18.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox18.Location = new System.Drawing.Point(300, -1);
-            this.pictureBox18.Name = "pictureBox18";
-            this.pictureBox18.Size = new System.Drawing.Size(46, 63);
-            this.pictureBox18.TabIndex = 14;
-            this.pictureBox18.TabStop = false;
+            this.pictureFood3.BackColor = System.Drawing.Color.Transparent;
+            this.pictureFood3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureFood3.Location = new System.Drawing.Point(300, -1);
+            this.pictureFood3.Name = "pictureFood3";
+            this.pictureFood3.Size = new System.Drawing.Size(46, 63);
+            this.pictureFood3.TabIndex = 14;
+            this.pictureFood3.TabStop = false;
             // 
             // pictureBox17
             // 
             this.pictureBox17.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox17.Location = new System.Drawing.Point(416, 94);
             this.pictureBox17.Name = "pictureBox17";
             this.pictureBox17.Size = new System.Drawing.Size(46, 63);
@@ -264,6 +271,7 @@
             // pictureBox16
             // 
             this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox16.Location = new System.Drawing.Point(551, 94);
             this.pictureBox16.Name = "pictureBox16";
             this.pictureBox16.Size = new System.Drawing.Size(46, 63);
@@ -273,6 +281,7 @@
             // pictureBox15
             // 
             this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox15.Location = new System.Drawing.Point(344, 94);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(46, 63);
@@ -282,6 +291,7 @@
             // pictureBox14
             // 
             this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox14.Location = new System.Drawing.Point(615, 94);
             this.pictureBox14.Name = "pictureBox14";
             this.pictureBox14.Size = new System.Drawing.Size(46, 63);
@@ -291,6 +301,7 @@
             // pictureBox13
             // 
             this.pictureBox13.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.pictureBox13.Location = new System.Drawing.Point(271, 94);
             this.pictureBox13.Name = "pictureBox13";
             this.pictureBox13.Size = new System.Drawing.Size(46, 63);
@@ -300,42 +311,47 @@
             // pictureBox12
             // 
             this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox12.Location = new System.Drawing.Point(480, 94);
             this.pictureBox12.Name = "pictureBox12";
             this.pictureBox12.Size = new System.Drawing.Size(46, 63);
             this.pictureBox12.TabIndex = 8;
             this.pictureBox12.TabStop = false;
             // 
-            // pictureBox11
+            // pictureFood2
             // 
-            this.pictureBox11.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox11.Location = new System.Drawing.Point(157, 33);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(46, 63);
-            this.pictureBox11.TabIndex = 7;
-            this.pictureBox11.TabStop = false;
+            this.pictureFood2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureFood2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureFood2.Location = new System.Drawing.Point(157, 33);
+            this.pictureFood2.Name = "pictureFood2";
+            this.pictureFood2.Size = new System.Drawing.Size(46, 63);
+            this.pictureFood2.TabIndex = 7;
+            this.pictureFood2.TabStop = false;
             // 
-            // pictureBox6
+            // pictureFood1
             // 
-            this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.Location = new System.Drawing.Point(108, 98);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(46, 63);
-            this.pictureBox6.TabIndex = 6;
-            this.pictureBox6.TabStop = false;
+            this.pictureFood1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureFood1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureFood1.Location = new System.Drawing.Point(108, 98);
+            this.pictureFood1.Name = "pictureFood1";
+            this.pictureFood1.Size = new System.Drawing.Size(46, 63);
+            this.pictureFood1.TabIndex = 6;
+            this.pictureFood1.TabStop = false;
             // 
-            // pictureBox5
+            // pictureFood0
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Location = new System.Drawing.Point(57, 164);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(46, 63);
-            this.pictureBox5.TabIndex = 5;
-            this.pictureBox5.TabStop = false;
+            this.pictureFood0.BackColor = System.Drawing.Color.Transparent;
+            this.pictureFood0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureFood0.Location = new System.Drawing.Point(57, 164);
+            this.pictureFood0.Name = "pictureFood0";
+            this.pictureFood0.Size = new System.Drawing.Size(46, 63);
+            this.pictureFood0.TabIndex = 5;
+            this.pictureFood0.TabStop = false;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox2.Location = new System.Drawing.Point(700, 31);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(46, 63);
@@ -345,6 +361,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(800, 164);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(46, 63);
@@ -355,7 +372,7 @@
             // 
             this.panel2.BackColor = System.Drawing.Color.PeachPuff;
             this.panel2.Controls.Add(this.panel5);
-            this.panel2.Controls.Add(this.pictureBox21);
+            this.panel2.Controls.Add(this.pictureBoxCustomer);
             this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.menuStrip1);
@@ -405,14 +422,15 @@
             this.label1.TabIndex = 0;
             this.label1.Text = "00:00:00";
             // 
-            // pictureBox21
+            // pictureBoxCustomer
             // 
-            this.pictureBox21.BackColor = System.Drawing.Color.White;
-            this.pictureBox21.Location = new System.Drawing.Point(407, 140);
-            this.pictureBox21.Name = "pictureBox21";
-            this.pictureBox21.Size = new System.Drawing.Size(142, 125);
-            this.pictureBox21.TabIndex = 17;
-            this.pictureBox21.TabStop = false;
+            this.pictureBoxCustomer.BackColor = System.Drawing.Color.White;
+            this.pictureBoxCustomer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBoxCustomer.Location = new System.Drawing.Point(407, 140);
+            this.pictureBoxCustomer.Name = "pictureBoxCustomer";
+            this.pictureBoxCustomer.Size = new System.Drawing.Size(142, 125);
+            this.pictureBoxCustomer.TabIndex = 17;
+            this.pictureBoxCustomer.TabStop = false;
             // 
             // panel4
             // 
@@ -509,10 +527,18 @@
             // 
             // newGameToolStripMenuItem
             // 
+            this.newGameToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newGameToolStripMenuItem1});
             this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
-            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(96, 24);
-            this.newGameToolStripMenuItem.Text = "New Game";
+            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(62, 24);
+            this.newGameToolStripMenuItem.Text = "Game";
             this.newGameToolStripMenuItem.Click += new System.EventHandler(this.newGameToolStripMenuItem_Click);
+            // 
+            // newGameToolStripMenuItem1
+            // 
+            this.newGameToolStripMenuItem1.Name = "newGameToolStripMenuItem1";
+            this.newGameToolStripMenuItem1.Size = new System.Drawing.Size(165, 26);
+            this.newGameToolStripMenuItem1.Text = "New Game";
             // 
             // exitToolStripMenuItem
             // 
@@ -551,23 +577,23 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox18)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFood3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFood2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFood1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFood0)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCustomer)).EndInit();
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
@@ -590,17 +616,17 @@
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.PictureBox pictureBox12;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.PictureBox pictureFood2;
+        private System.Windows.Forms.PictureBox pictureFood1;
+        private System.Windows.Forms.PictureBox pictureFood0;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox13;
-        private System.Windows.Forms.PictureBox pictureBox21;
+        private System.Windows.Forms.PictureBox pictureBoxCustomer;
         private System.Windows.Forms.PictureBox pictureBox19;
         private System.Windows.Forms.PictureBox pictureBox20;
-        private System.Windows.Forms.PictureBox pictureBox18;
+        private System.Windows.Forms.PictureBox pictureFood3;
         private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.PictureBox pictureBox15;
@@ -623,6 +649,7 @@
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem newGameToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem newGameToolStripMenuItem1;
     }
 }
 

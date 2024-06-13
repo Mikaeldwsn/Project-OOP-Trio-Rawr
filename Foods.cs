@@ -22,9 +22,10 @@ namespace Project_OOP_Trio_Rawr
             return "";
         }
 
-        public void AddIngredient()
+        public void AddIngredient(string name, Image picture)
         {
-
+            Ingredients newIngredients = new Ingredients(name, picture);
+            ingredients.Add(newIngredients);
         }
     }
 }
