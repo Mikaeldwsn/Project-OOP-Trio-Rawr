@@ -17,5 +17,20 @@ namespace Project_OOP_Trio_Rawr
             InitializeComponent();
         }
 
+        private void newGameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackgroundImage = null;
+
+            //createplayer(); menambahkkan data player
+
+            label3.Visible = true;
+            label1.Visible = true;
+            label2.Visible = true;
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
