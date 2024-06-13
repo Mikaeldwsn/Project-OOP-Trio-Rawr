@@ -28,7 +28,7 @@ namespace Project_OOP_Trio_Rawr
 
         public Image display()
         {
-            return Properties.Resources.player;
+            return this.Picture;
         }
 
         //public Items AddOrder()
