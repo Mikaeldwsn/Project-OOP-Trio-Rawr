@@ -44,5 +44,14 @@ namespace Project_OOP_Trio_Rawr
         {
 
         }
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void CreateFoods()
+        {
+            
+        }
     }
 }
