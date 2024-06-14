@@ -18,7 +18,10 @@ namespace Project_OOP_Trio_Rawr
         Items items;
         Customers customers;
         Players players;
+        Time time;
+        public List<Ingredients> listselectedFood = new List<Ingredients>();
 
+        string filename = "game.dat";
         public Form1()
         {
             InitializeComponent();
@@ -32,7 +35,15 @@ namespace Project_OOP_Trio_Rawr
 
             label3.Visible = true;
             label1.Visible = true;
-            label2.Visible = true;
+           
+
+            remainingcustomers = 5;
+            label3.Text = "Remaining Customers: " + remainingcustomers.ToString();
+           // time = new Time(0,0,0);
+           //label1.Text= 
+           
+            //play sound
+            
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
@@ -59,17 +70,23 @@ namespace Project_OOP_Trio_Rawr
             pictureFood0.Tag = ((Foods)items).Ingredients[0].Name;
             pictureFood1.Tag = ((Foods)items).Ingredients[1].Name;
             pictureFood2.Tag = ((Foods)items).Ingredients[2].Name;
-            pictureFood3.Tag = ((Foods)items).Ingredients[4].Name;
+            pictureFood3.Tag = ((Foods)items).Ingredients[3].Name;
 
             pictureFood0.Image = ((Foods)items).Ingredients[0].Picture;
             pictureFood1.Image = ((Foods)items).Ingredients[1].Picture;
             pictureFood2.Image = ((Foods)items).Ingredients[2].Picture;
-            pictureFood3.Image = ((Foods)items).Ingredients[4].Picture;
+            pictureFood3.Image = ((Foods)items).Ingredients[3].Picture;
 
-            pictureFood0.Visible = true;
-            pictureFood1.Visible = true;
-            pictureFood2.Visible = true;
-            pictureFood3.Visible = true;
+            items = new Foods("healthy salad", Properties.Resources.salad, 25000);
+            listofitems.Add(items);
+            ((Foods)items).AddIngredient("plate", Properties.Resources.plate);
+            ((Foods)items).AddIngredient("letuce", Properties.Resources.lettuce);
+            ((Foods)items).AddIngredient("mayo", Properties.Resources.mayo);
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
         }
 
        
