@@ -42,7 +42,7 @@ namespace Project_OOP_Trio_Rawr
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            CreateFoods();
         }
 
         private void CreateFoods()
@@ -65,6 +65,13 @@ namespace Project_OOP_Trio_Rawr
             pictureFood1.Image = ((Foods)items).Ingredients[1].Picture;
             pictureFood2.Image = ((Foods)items).Ingredients[2].Picture;
             pictureFood3.Image = ((Foods)items).Ingredients[4].Picture;
+
+            pictureFood0.Visible = true;
+            pictureFood1.Visible = true;
+            pictureFood2.Visible = true;
+            pictureFood3.Visible = true;
         }
+
+       
     }
 }
