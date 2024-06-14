@@ -40,7 +40,7 @@
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.pictureFood4 = new System.Windows.Forms.PictureBox();
             this.pictureFood3 = new System.Windows.Forms.PictureBox();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
@@ -81,7 +81,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFood4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
@@ -170,7 +170,7 @@
             this.panel1.Controls.Add(this.pictureBox23);
             this.panel1.Controls.Add(this.pictureBox22);
             this.panel1.Controls.Add(this.pictureBox19);
-            this.panel1.Controls.Add(this.pictureBox20);
+            this.panel1.Controls.Add(this.pictureFood4);
             this.panel1.Controls.Add(this.pictureFood3);
             this.panel1.Controls.Add(this.pictureBox17);
             this.panel1.Controls.Add(this.pictureBox16);
@@ -238,15 +238,15 @@
             this.pictureBox19.TabIndex = 2;
             this.pictureBox19.TabStop = false;
             // 
-            // pictureBox20
+            // pictureFood4
             // 
-            this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox20.Location = new System.Drawing.Point(586, -1);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(46, 63);
-            this.pictureBox20.TabIndex = 16;
-            this.pictureBox20.TabStop = false;
+            this.pictureFood4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureFood4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureFood4.Location = new System.Drawing.Point(586, -1);
+            this.pictureFood4.Name = "pictureFood4";
+            this.pictureFood4.Size = new System.Drawing.Size(46, 63);
+            this.pictureFood4.TabIndex = 16;
+            this.pictureFood4.TabStop = false;
             // 
             // pictureFood3
             // 
@@ -576,7 +576,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFood4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
@@ -625,7 +625,7 @@
         private System.Windows.Forms.PictureBox pictureBox13;
         private System.Windows.Forms.PictureBox pictureBoxCustomer;
         private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.PictureBox pictureFood4;
         private System.Windows.Forms.PictureBox pictureFood3;
         private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.PictureBox pictureBox16;
