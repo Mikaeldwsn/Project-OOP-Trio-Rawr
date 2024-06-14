@@ -8,7 +8,7 @@
     </TypeIdentifier>
   </Class>
   <Class Name="Project_OOP_Trio_Rawr.Items">
-    <Position X="5.5" Y="0.5" Width="1.5" />
+    <Position X="5" Y="0.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAABgAAAAYAAAAAAAAAAAQYAAAAEAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Items.cs</FileName>
