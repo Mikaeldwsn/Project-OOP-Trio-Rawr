@@ -59,9 +59,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBoxCustomer = new System.Windows.Forms.PictureBox();
-            this.panel4 = new System.Windows.Forms.Panel();
             this.pictureBox26 = new System.Windows.Forms.PictureBox();
-            this.pictureBox25 = new System.Windows.Forms.PictureBox();
             this.panel3 = new System.Windows.Forms.Panel();
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
@@ -71,6 +69,9 @@
             this.newGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newGameToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.label9 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
@@ -97,21 +98,21 @@
             this.panel2.SuspendLayout();
             this.panel5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCustomer)).BeginInit();
-            this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).BeginInit();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).BeginInit();
             this.menuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            this.panel4.SuspendLayout();
             this.SuspendLayout();
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(750, 98);
+            this.pictureBox3.Location = new System.Drawing.Point(754, 109);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(46, 63);
+            this.pictureBox3.Size = new System.Drawing.Size(51, 52);
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
             // 
@@ -165,6 +166,7 @@
             this.panel1.BackColor = System.Drawing.Color.PeachPuff;
             this.panel1.BackgroundImage = global::Project_OOP_Trio_Rawr.Properties.Resources.food_stall;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.pictureBox5);
             this.panel1.Controls.Add(this.label8);
             this.panel1.Controls.Add(this.label7);
             this.panel1.Controls.Add(this.pictureBox23);
@@ -240,6 +242,13 @@
             // 
             // pictureBox20
             // 
+            this.pictureFood4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureFood4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureFood4.Location = new System.Drawing.Point(586, 3);
+            this.pictureFood4.Name = "pictureFood4";
+            this.pictureFood4.Size = new System.Drawing.Size(66, 59);
+            this.pictureFood4.TabIndex = 16;
+            this.pictureFood4.TabStop = false;
             this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox20.Location = new System.Drawing.Point(586, -1);
@@ -252,9 +261,9 @@
             // 
             this.pictureFood3.BackColor = System.Drawing.Color.Transparent;
             this.pictureFood3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureFood3.Location = new System.Drawing.Point(300, -1);
+            this.pictureFood3.Location = new System.Drawing.Point(283, 3);
             this.pictureFood3.Name = "pictureFood3";
-            this.pictureFood3.Size = new System.Drawing.Size(46, 63);
+            this.pictureFood3.Size = new System.Drawing.Size(63, 59);
             this.pictureFood3.TabIndex = 14;
             this.pictureFood3.TabStop = false;
             // 
@@ -322,9 +331,9 @@
             // 
             this.pictureFood2.BackColor = System.Drawing.Color.Transparent;
             this.pictureFood2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureFood2.Location = new System.Drawing.Point(157, 33);
+            this.pictureFood2.Location = new System.Drawing.Point(149, 46);
             this.pictureFood2.Name = "pictureFood2";
-            this.pictureFood2.Size = new System.Drawing.Size(46, 63);
+            this.pictureFood2.Size = new System.Drawing.Size(51, 52);
             this.pictureFood2.TabIndex = 7;
             this.pictureFood2.TabStop = false;
             // 
@@ -332,9 +341,9 @@
             // 
             this.pictureFood1.BackColor = System.Drawing.Color.Transparent;
             this.pictureFood1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureFood1.Location = new System.Drawing.Point(108, 98);
+            this.pictureFood1.Location = new System.Drawing.Point(101, 109);
             this.pictureFood1.Name = "pictureFood1";
-            this.pictureFood1.Size = new System.Drawing.Size(46, 63);
+            this.pictureFood1.Size = new System.Drawing.Size(53, 52);
             this.pictureFood1.TabIndex = 6;
             this.pictureFood1.TabStop = false;
             // 
@@ -342,9 +351,9 @@
             // 
             this.pictureFood0.BackColor = System.Drawing.Color.Transparent;
             this.pictureFood0.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureFood0.Location = new System.Drawing.Point(57, 164);
+            this.pictureFood0.Location = new System.Drawing.Point(48, 174);
             this.pictureFood0.Name = "pictureFood0";
-            this.pictureFood0.Size = new System.Drawing.Size(46, 63);
+            this.pictureFood0.Size = new System.Drawing.Size(55, 53);
             this.pictureFood0.TabIndex = 5;
             this.pictureFood0.TabStop = false;
             // 
@@ -352,9 +361,9 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(700, 31);
+            this.pictureBox2.Location = new System.Drawing.Point(704, 46);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(46, 63);
+            this.pictureBox2.Size = new System.Drawing.Size(52, 49);
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
             // 
@@ -362,23 +371,23 @@
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(800, 164);
+            this.pictureBox1.Location = new System.Drawing.Point(801, 170);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(46, 63);
+            this.pictureBox1.Size = new System.Drawing.Size(53, 57);
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
             // 
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.Color.PeachPuff;
+            this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.pictureBoxCustomer);
-            this.panel2.Controls.Add(this.panel4);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.menuStrip1);
             this.panel2.Location = new System.Drawing.Point(-8, -4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(909, 265);
+            this.panel2.Size = new System.Drawing.Size(909, 264);
             this.panel2.TabIndex = 11;
             // 
             // panel5
@@ -395,12 +404,13 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(17, 55);
+            this.label3.Location = new System.Drawing.Point(17, 86);
             this.label3.Name = "label3";
             this.label3.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.label3.Size = new System.Drawing.Size(77, 16);
             this.label3.TabIndex = 2;
             this.label3.Text = "Customers:";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // label2
             // 
@@ -431,35 +441,15 @@
             this.pictureBoxCustomer.TabIndex = 17;
             this.pictureBoxCustomer.TabStop = false;
             // 
-            // panel4
-            // 
-            this.panel4.Controls.Add(this.pictureBox26);
-            this.panel4.Controls.Add(this.pictureBox25);
-            this.panel4.Location = new System.Drawing.Point(555, 41);
-            this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(143, 120);
-            this.panel4.TabIndex = 1;
-            // 
             // pictureBox26
             // 
             this.pictureBox26.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox26.Location = new System.Drawing.Point(40, 12);
+            this.pictureBox26.Location = new System.Drawing.Point(40, 6);
             this.pictureBox26.Name = "pictureBox26";
             this.pictureBox26.Size = new System.Drawing.Size(57, 73);
             this.pictureBox26.TabIndex = 22;
             this.pictureBox26.TabStop = false;
-            // 
-            // pictureBox25
-            // 
-            this.pictureBox25.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox25.BackgroundImage = global::Project_OOP_Trio_Rawr.Properties.Resources.dialog;
-            this.pictureBox25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox25.Location = new System.Drawing.Point(0, 3);
-            this.pictureBox25.Name = "pictureBox25";
-            this.pictureBox25.Size = new System.Drawing.Size(143, 117);
-            this.pictureBox25.TabIndex = 22;
-            this.pictureBox25.TabStop = false;
             // 
             // panel3
             // 
@@ -546,6 +536,38 @@
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Location = new System.Drawing.Point(436, 3);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(66, 59);
+            this.pictureBox5.TabIndex = 24;
+            this.pictureBox5.TabStop = false;
+            // 
+            // panel4
+            // 
+            this.panel4.BackgroundImage = global::Project_OOP_Trio_Rawr.Properties.Resources.dialog;
+            this.panel4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel4.Controls.Add(this.label9);
+            this.panel4.Controls.Add(this.pictureBox26);
+            this.panel4.Location = new System.Drawing.Point(555, 47);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(144, 114);
+            this.panel4.TabIndex = 23;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
+            this.label9.Font = new System.Drawing.Font("Arial", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.Location = new System.Drawing.Point(16, 33);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(104, 27);
+            this.label9.TabIndex = 3;
+            this.label9.Text = "00:00:00";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -593,14 +615,15 @@
             this.panel5.ResumeLayout(false);
             this.panel5.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCustomer)).EndInit();
-            this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox25)).EndInit();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox24)).EndInit();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -629,7 +652,6 @@
         private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.PictureBox pictureBox16;
         private System.Windows.Forms.PictureBox pictureBox15;
-        private System.Windows.Forms.Panel panel4;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
@@ -639,7 +661,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.PictureBox pictureBox25;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
@@ -649,6 +670,9 @@
         private System.Windows.Forms.ToolStripMenuItem newGameToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newGameToolStripMenuItem1;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Label label9;
     }
 }
 

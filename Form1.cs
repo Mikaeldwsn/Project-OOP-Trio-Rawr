@@ -53,9 +53,13 @@ namespace Project_OOP_Trio_Rawr
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            CreateFoods();
+            SetStallDisplay();
         }
 
+        private void SetStallDisplay()
+        {
+            CreateFoods();
+        }
         private void CreateFoods()
         {
             items = new Foods("burger", Properties.Resources.burger, 50000);
@@ -77,10 +81,34 @@ namespace Project_OOP_Trio_Rawr
             pictureFood2.Image = ((Foods)items).Ingredients[2].Picture;
             pictureFood3.Image = ((Foods)items).Ingredients[4].Picture;
 
+
+            pictureFood0.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureFood1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureFood2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureFood3.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureFood4.SizeMode = PictureBoxSizeMode.StretchImage;
+            this.Refresh();
+
+            items = new Foods("healthy salad", Properties.Resources.salad, 25000);
+            listofitems.Add(items);
+            ((Foods)items).AddIngredient("plate", Properties.Resources.plate);
+            ((Foods)items).AddIngredient("letuce", Properties.Resources.lettuce);
             pictureFood0.Visible = true;
             ((Foods)items).AddIngredient("mayo", Properties.Resources.mayo);
+
         }
 
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+    }
+}
        
     }
 }
