@@ -54,6 +54,7 @@ namespace Project_OOP_Trio_Rawr
 
         private void Form1_Load(object sender, EventArgs e)
         {
+            CreateCustomer();
             SetStallDisplay();
         }
 
@@ -134,16 +135,20 @@ namespace Project_OOP_Trio_Rawr
 
             if (randomNum == 0)
             {
-                customers = new Customers("");
+                customers = new Customers("David", Properties.Resources.david, "man");
             } 
             if (randomNum == 1)
             {
-
+                customers = new Customers("Anna", Properties.Resources.anna, "woman");
             }
             if (randomNum == 2)
             {
-
+                customers = new Customers("Bryan", Properties.Resources.bryan, "kid");
             }
+
+            pictureBoxCustomer.Image = customers.Picture;
+            pictureBoxCustomer.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBoxCustomer.BackColor = Color.Transparent;
         }
 
         public void CreateOrder()
