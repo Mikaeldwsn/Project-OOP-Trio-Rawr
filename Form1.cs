@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -114,8 +115,56 @@ namespace Project_OOP_Trio_Rawr
             pictureFood6.Tag = ((Foods)items).Ingredients[0].Name;
             pictureFood7.Tag = ((Foods)items).Ingredients[1].Name;
 
+            pictureFood6.Image = ((Foods)items).Ingredients[0].Picture;
+            pictureFood7.Image = ((Foods)items).Ingredients[1].Picture;
 
+            pictureFood6.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureFood7.SizeMode = PictureBoxSizeMode.StretchImage;
 
+            items = new Foods("Large Coffe Cold", Properties.Resources.coffee_L_cold, 23000);
+
+            ((Foods)items).AddIngredient("Large Coffe Cold", Properties.Resources.coffee_L_cold);
+            coffeL1.Tag = ((Foods)items).Ingredients[0].Name;
+            coffeL1.Image = ((Foods)items).Ingredients[0].Picture;
+
+            items = new Foods("Large Coffe Hot", Properties.Resources.coffee_L_hot, 23000);
+
+            ((Foods)items).AddIngredient("Large Coffe Hot", Properties.Resources.coffee_L_hot);
+            coffeL2.Tag = ((Foods)items).Ingredients[0].Name;
+            coffeL2.Image = ((Foods)items).Ingredients[0].Picture;
+
+            items = new Foods("Medium Coffe Cold", Properties.Resources.coffee_M_cold, 15000);
+
+            ((Foods)items).AddIngredient("Medium Coffe Cold", Properties.Resources.coffee_M_cold);
+            coffeM1.Tag = ((Foods)items).Ingredients[0].Name;
+            coffeM1.Image = ((Foods)items).Ingredients[0].Picture;
+
+            items = new Foods("Medium Coffe Hot", Properties.Resources.coffee_M_hot, 15000);
+
+            ((Foods)items).AddIngredient("Medium Coffe Cold", Properties.Resources.coffee_M_hot);
+            coffeM2.Tag = ((Foods)items).Ingredients[0].Name;
+            coffeM2.Image = ((Foods)items).Ingredients[0].Picture;
+
+            items = new Foods("Smaal Coffe Cold", Properties.Resources.coffee_S_cold, 8000);
+
+            ((Foods)items).AddIngredient("Small Coffe Cold", Properties.Resources.coffee_S_cold);
+            coffeS1.Tag = ((Foods)items).Ingredients[0].Name;
+            coffeS1.Image = ((Foods)items).Ingredients[0].Picture;
+
+            items = new Foods("Small Coffe Hot", Properties.Resources.coffee_S_hot, 8000);
+
+            ((Foods)items).AddIngredient("Small Coffe Hot", Properties.Resources.coffee_S_hot);
+            coffeS2.Tag = ((Foods)items).Ingredients[0].Name;
+            coffeS2.Image = ((Foods)items).Ingredients[0].Picture;
+
+            coffeL1.SizeMode = PictureBoxSizeMode.StretchImage;
+            coffeL2.SizeMode = PictureBoxSizeMode.StretchImage;
+            coffeM1.SizeMode = PictureBoxSizeMode.StretchImage;
+            coffeM2.SizeMode = PictureBoxSizeMode.StretchImage;
+            coffeS1.SizeMode = PictureBoxSizeMode.StretchImage;
+            coffeS2.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            items = new Merchandise(, "Plushie", Properties.Resources.plushie, 20000);
             this.Refresh();
         }
 

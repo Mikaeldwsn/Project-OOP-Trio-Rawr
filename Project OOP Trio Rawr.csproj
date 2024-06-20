@@ -149,5 +149,29 @@
   <ItemGroup>
     <None Include="Resources\david.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee_L_cold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee_L_hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee_M_cold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee_M_hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee_S_cold.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\coffee_S_hot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plushie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tumbler.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
