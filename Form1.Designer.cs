@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureFood6 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.pictureBox8 = new System.Windows.Forms.PictureBox();
@@ -41,7 +41,7 @@
             this.pictureBox23 = new System.Windows.Forms.PictureBox();
             this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.pictureBox19 = new System.Windows.Forms.PictureBox();
-            this.pictureBox20 = new System.Windows.Forms.PictureBox();
+            this.pictureFood4 = new System.Windows.Forms.PictureBox();
             this.pictureFood3 = new System.Windows.Forms.PictureBox();
             this.pictureBox17 = new System.Windows.Forms.PictureBox();
             this.pictureBox16 = new System.Windows.Forms.PictureBox();
@@ -52,8 +52,8 @@
             this.pictureFood2 = new System.Windows.Forms.PictureBox();
             this.pictureFood1 = new System.Windows.Forms.PictureBox();
             this.pictureFood0 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureFood5 = new System.Windows.Forms.PictureBox();
+            this.pictureFood7 = new System.Windows.Forms.PictureBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.label9 = new System.Windows.Forms.Label();
@@ -72,7 +72,7 @@
             this.newGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newGameToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFood6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
@@ -83,7 +83,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFood4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
@@ -94,8 +94,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood0)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFood5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFood7)).BeginInit();
             this.panel2.SuspendLayout();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox26)).BeginInit();
@@ -106,15 +106,15 @@
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
-            // pictureBox3
+            // pictureFood6
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Location = new System.Drawing.Point(754, 109);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(51, 52);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            this.pictureFood6.BackColor = System.Drawing.Color.Transparent;
+            this.pictureFood6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureFood6.Location = new System.Drawing.Point(754, 109);
+            this.pictureFood6.Name = "pictureFood6";
+            this.pictureFood6.Size = new System.Drawing.Size(51, 52);
+            this.pictureFood6.TabIndex = 2;
+            this.pictureFood6.TabStop = false;
             // 
             // pictureBox4
             // 
@@ -172,7 +172,7 @@
             this.panel1.Controls.Add(this.pictureBox23);
             this.panel1.Controls.Add(this.pictureBox22);
             this.panel1.Controls.Add(this.pictureBox19);
-            this.panel1.Controls.Add(this.pictureBox20);
+            this.panel1.Controls.Add(this.pictureFood4);
             this.panel1.Controls.Add(this.pictureFood3);
             this.panel1.Controls.Add(this.pictureBox17);
             this.panel1.Controls.Add(this.pictureBox16);
@@ -183,9 +183,9 @@
             this.panel1.Controls.Add(this.pictureFood2);
             this.panel1.Controls.Add(this.pictureFood1);
             this.panel1.Controls.Add(this.pictureFood0);
-            this.panel1.Controls.Add(this.pictureBox2);
-            this.panel1.Controls.Add(this.pictureBox1);
-            this.panel1.Controls.Add(this.pictureBox3);
+            this.panel1.Controls.Add(this.pictureFood5);
+            this.panel1.Controls.Add(this.pictureFood7);
+            this.panel1.Controls.Add(this.pictureFood6);
             this.panel1.Location = new System.Drawing.Point(1, 256);
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(900, 332);
@@ -250,15 +250,15 @@
             this.pictureBox19.TabIndex = 2;
             this.pictureBox19.TabStop = false;
             // 
-            // pictureBox20
+            // pictureFood4
             // 
-            this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox20.Location = new System.Drawing.Point(586, -1);
-            this.pictureBox20.Name = "pictureBox20";
-            this.pictureBox20.Size = new System.Drawing.Size(46, 63);
-            this.pictureBox20.TabIndex = 16;
-            this.pictureBox20.TabStop = false;
+            this.pictureFood4.BackColor = System.Drawing.Color.Transparent;
+            this.pictureFood4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureFood4.Location = new System.Drawing.Point(586, 3);
+            this.pictureFood4.Name = "pictureFood4";
+            this.pictureFood4.Size = new System.Drawing.Size(64, 59);
+            this.pictureFood4.TabIndex = 16;
+            this.pictureFood4.TabStop = false;
             // 
             // pictureFood3
             // 
@@ -360,25 +360,25 @@
             this.pictureFood0.TabIndex = 5;
             this.pictureFood0.TabStop = false;
             // 
-            // pictureBox2
+            // pictureFood5
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(704, 46);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(52, 49);
-            this.pictureBox2.TabIndex = 4;
-            this.pictureBox2.TabStop = false;
+            this.pictureFood5.BackColor = System.Drawing.Color.Transparent;
+            this.pictureFood5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureFood5.Location = new System.Drawing.Point(704, 46);
+            this.pictureFood5.Name = "pictureFood5";
+            this.pictureFood5.Size = new System.Drawing.Size(52, 49);
+            this.pictureFood5.TabIndex = 4;
+            this.pictureFood5.TabStop = false;
             // 
-            // pictureBox1
+            // pictureFood7
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(801, 170);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(53, 57);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
+            this.pictureFood7.BackColor = System.Drawing.Color.Transparent;
+            this.pictureFood7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureFood7.Location = new System.Drawing.Point(801, 170);
+            this.pictureFood7.Name = "pictureFood7";
+            this.pictureFood7.Size = new System.Drawing.Size(53, 57);
+            this.pictureFood7.TabIndex = 3;
+            this.pictureFood7.TabStop = false;
             // 
             // panel2
             // 
@@ -390,7 +390,7 @@
             this.panel2.Controls.Add(this.menuStrip1);
             this.panel2.Location = new System.Drawing.Point(-8, -4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(909, 264);
+            this.panel2.Size = new System.Drawing.Size(909, 262);
             this.panel2.TabIndex = 11;
             // 
             // panel4
@@ -579,7 +579,7 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFood6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
@@ -591,7 +591,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox20)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFood4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
@@ -602,8 +602,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood0)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFood5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureFood7)).EndInit();
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             this.panel4.ResumeLayout(false);
@@ -622,7 +622,7 @@
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureFood6;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.PictureBox pictureBox8;
@@ -634,13 +634,13 @@
         private System.Windows.Forms.PictureBox pictureFood2;
         private System.Windows.Forms.PictureBox pictureFood1;
         private System.Windows.Forms.PictureBox pictureFood0;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureFood5;
+        private System.Windows.Forms.PictureBox pictureFood7;
         private System.Windows.Forms.PictureBox pictureBox14;
         private System.Windows.Forms.PictureBox pictureBox13;
         private System.Windows.Forms.PictureBox pictureBoxCustomer;
         private System.Windows.Forms.PictureBox pictureBox19;
-        private System.Windows.Forms.PictureBox pictureBox20;
+        private System.Windows.Forms.PictureBox pictureFood4;
         private System.Windows.Forms.PictureBox pictureFood3;
         private System.Windows.Forms.PictureBox pictureBox17;
         private System.Windows.Forms.PictureBox pictureBox16;

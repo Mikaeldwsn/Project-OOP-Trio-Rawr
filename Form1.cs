@@ -63,7 +63,8 @@ namespace Project_OOP_Trio_Rawr
         }
         private void CreateFoods()
         {
-            items = new Foods("burger", Properties.Resources.burger, 50000);
+            //Burger
+            items = new Foods("Burger", Properties.Resources.burger, 50000);
             listofitems.Add(items);
 
             ((Foods)items).AddIngredient("plate", Properties.Resources.plate);
@@ -76,26 +77,45 @@ namespace Project_OOP_Trio_Rawr
             pictureFood1.Tag = ((Foods)items).Ingredients[1].Name;
             pictureFood2.Tag = ((Foods)items).Ingredients[2].Name;
             pictureFood3.Tag = ((Foods)items).Ingredients[3].Name;
+            pictureFood4.Tag = ((Foods)items).Ingredients[4].Name;
 
             pictureFood0.Image = ((Foods)items).Ingredients[0].Picture;
             pictureFood1.Image = ((Foods)items).Ingredients[1].Picture;
             pictureFood2.Image = ((Foods)items).Ingredients[2].Picture;
-            pictureFood3.Image = ((Foods)items).Ingredients[4].Picture;
-
+            pictureFood3.Image = ((Foods)items).Ingredients[3].Picture;
+            pictureFood4.Image = ((Foods)items).Ingredients[4].Picture;
 
             pictureFood0.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureFood1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureFood2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureFood3.SizeMode = PictureBoxSizeMode.StretchImage;
-            this.Refresh();
+            pictureFood4.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            items = new Foods("healthy salad", Properties.Resources.salad, 25000);
+            //Salad
+            items = new Foods("Healthy Salad", Properties.Resources.salad, 25000);
             listofitems.Add(items);
             ((Foods)items).AddIngredient("plate", Properties.Resources.plate);
             ((Foods)items).AddIngredient("letuce", Properties.Resources.lettuce);
-            pictureFood0.Visible = true;
             ((Foods)items).AddIngredient("mayo", Properties.Resources.mayo);
 
+            pictureFood5.Tag = ((Foods)items).Ingredients[2].Name;
+
+            pictureFood5.Image = ((Foods)items).Ingredients[2].Picture;
+
+            pictureFood5.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            items = new Foods("Ice Cream", Properties.Resources.icecream, 8000);
+            listofitems.Add(items);
+
+            ((Foods)items).AddIngredient("ice", Properties.Resources.ice);
+            ((Foods)items).AddIngredient("cone", Properties.Resources.cone);
+
+            pictureFood6.Tag = ((Foods)items).Ingredients[0].Name;
+            pictureFood7.Tag = ((Foods)items).Ingredients[1].Name;
+
+
+
+            this.Refresh();
         }
 
         private void panel2_Paint(object sender, PaintEventArgs e)
