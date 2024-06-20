@@ -28,7 +28,7 @@ namespace Project_OOP_Trio_Rawr
         public string Type { get => type; set => type = value; }
         public Items Item { get => item; set => item = value; }
 
-        public string display()
+        public string Display()
         {
             if (type.ToLower() == "man")
             {
@@ -38,11 +38,11 @@ namespace Project_OOP_Trio_Rawr
             {
                 return $"";
             }
-            else if (type.ToLower() == "kid")
+            else
             {
                 return $"morning..";
             }
-            return "";
+            
         }
 
         //public Items AddOrder()

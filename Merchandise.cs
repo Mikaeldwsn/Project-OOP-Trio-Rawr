@@ -23,7 +23,14 @@ namespace Project_OOP_Trio_Rawr
         }
         public bool CheckAvailibility()
         {
-            return true;
+            if (Stock >= 1)
+            {
+                return true;
+            } 
+            else
+            {
+                return false;
+            }
         }
     }
 }

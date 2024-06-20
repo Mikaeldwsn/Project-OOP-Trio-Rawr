@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Markup;
 
 namespace Project_OOP_Trio_Rawr
 {
@@ -54,8 +55,9 @@ namespace Project_OOP_Trio_Rawr
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            CreateCustomer();
             SetStallDisplay();
+            panelDialog.Visible = false;
+            labelDialog.Visible = false;
         }
 
         private void SetStallDisplay()
@@ -147,13 +149,27 @@ namespace Project_OOP_Trio_Rawr
             }
 
             pictureBoxCustomer.Image = customers.Picture;
-            pictureBoxCustomer.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBoxCustomer.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxCustomer.BackColor = Color.Transparent;
+
+            panelDialog.BackgroundImage = Properties.Resources.dialog;
+            labelDialog.Text = customers.Display();
+            panelDialog.Visible = true;
+            pictureBoxOrder.Visible = false;
+
+            pictureBoxTray.Image = null;
+            pictureBoxServe.Image = null;
+            pictureBoxServe.Tag = "none";
         }
 
         public void CreateOrder()
         {
 
+        }
+
+        private void newGameToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            CreateCustomer();
         }
     }
 
