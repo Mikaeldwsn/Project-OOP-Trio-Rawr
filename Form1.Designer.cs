@@ -659,10 +659,10 @@
         private System.Windows.Forms.PictureBox coffeS1;
         private System.Windows.Forms.PictureBox coffeL2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox23;
-        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.Label labelMerc2;
+        private System.Windows.Forms.Label labelMerch1;
+        private System.Windows.Forms.PictureBox merchandise2;
+        private System.Windows.Forms.PictureBox merchandise1;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
