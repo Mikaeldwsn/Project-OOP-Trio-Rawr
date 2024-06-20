@@ -43,12 +43,12 @@
             this.pictureBoxTray = new System.Windows.Forms.PictureBox();
             this.pictureFood4 = new System.Windows.Forms.PictureBox();
             this.pictureFood3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox17 = new System.Windows.Forms.PictureBox();
-            this.pictureBox16 = new System.Windows.Forms.PictureBox();
-            this.pictureBox15 = new System.Windows.Forms.PictureBox();
-            this.pictureBox14 = new System.Windows.Forms.PictureBox();
-            this.pictureBox13 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.coffeM1 = new System.Windows.Forms.PictureBox();
+            this.coffeS1 = new System.Windows.Forms.PictureBox();
+            this.coffeL2 = new System.Windows.Forms.PictureBox();
+            this.coffeS2 = new System.Windows.Forms.PictureBox();
+            this.coffeL1 = new System.Windows.Forms.PictureBox();
+            this.coffeM2 = new System.Windows.Forms.PictureBox();
             this.pictureFood2 = new System.Windows.Forms.PictureBox();
             this.pictureFood1 = new System.Windows.Forms.PictureBox();
             this.pictureFood0 = new System.Windows.Forms.PictureBox();
@@ -85,12 +85,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTray)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coffeM1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coffeS1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coffeL2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coffeS2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coffeL1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coffeM2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood0)).BeginInit();
@@ -174,12 +174,12 @@
             this.panel1.Controls.Add(this.pictureBoxTray);
             this.panel1.Controls.Add(this.pictureFood4);
             this.panel1.Controls.Add(this.pictureFood3);
-            this.panel1.Controls.Add(this.pictureBox17);
-            this.panel1.Controls.Add(this.pictureBox16);
-            this.panel1.Controls.Add(this.pictureBox15);
-            this.panel1.Controls.Add(this.pictureBox14);
-            this.panel1.Controls.Add(this.pictureBox13);
-            this.panel1.Controls.Add(this.pictureBox12);
+            this.panel1.Controls.Add(this.coffeM1);
+            this.panel1.Controls.Add(this.coffeS1);
+            this.panel1.Controls.Add(this.coffeL2);
+            this.panel1.Controls.Add(this.coffeS2);
+            this.panel1.Controls.Add(this.coffeL1);
+            this.panel1.Controls.Add(this.coffeM2);
             this.panel1.Controls.Add(this.pictureFood2);
             this.panel1.Controls.Add(this.pictureFood1);
             this.panel1.Controls.Add(this.pictureFood0);
@@ -201,45 +201,45 @@
             this.pictureBoxServe.TabIndex = 24;
             this.pictureBoxServe.TabStop = false;
             // 
-            // label8
+            // labelMerc2
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Location = new System.Drawing.Point(833, 308);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(44, 16);
-            this.label8.TabIndex = 23;
-            this.label8.Text = "label8";
+            this.labelMerc2.AutoSize = true;
+            this.labelMerc2.BackColor = System.Drawing.Color.Transparent;
+            this.labelMerc2.Location = new System.Drawing.Point(833, 308);
+            this.labelMerc2.Name = "labelMerc2";
+            this.labelMerc2.Size = new System.Drawing.Size(44, 16);
+            this.labelMerc2.TabIndex = 23;
+            this.labelMerc2.Text = "label8";
             // 
-            // label7
+            // labelMerc1
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Location = new System.Drawing.Point(25, 308);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 16);
-            this.label7.TabIndex = 22;
-            this.label7.Text = "label7";
+            this.labelMerc1.AutoSize = true;
+            this.labelMerc1.BackColor = System.Drawing.Color.Transparent;
+            this.labelMerc1.Location = new System.Drawing.Point(25, 308);
+            this.labelMerc1.Name = "labelMerc1";
+            this.labelMerc1.Size = new System.Drawing.Size(44, 16);
+            this.labelMerc1.TabIndex = 22;
+            this.labelMerc1.Text = "label7";
             // 
-            // pictureBox23
+            // merchandise2
             // 
-            this.pictureBox23.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox23.Location = new System.Drawing.Point(831, 242);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(46, 63);
-            this.pictureBox23.TabIndex = 18;
-            this.pictureBox23.TabStop = false;
+            this.merchandise2.BackColor = System.Drawing.Color.Transparent;
+            this.merchandise2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.merchandise2.Location = new System.Drawing.Point(818, 242);
+            this.merchandise2.Name = "merchandise2";
+            this.merchandise2.Size = new System.Drawing.Size(59, 63);
+            this.merchandise2.TabIndex = 18;
+            this.merchandise2.TabStop = false;
             // 
-            // pictureBox22
+            // merchandise1
             // 
-            this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox22.Location = new System.Drawing.Point(28, 242);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(46, 63);
-            this.pictureBox22.TabIndex = 17;
-            this.pictureBox22.TabStop = false;
+            this.merchandise1.BackColor = System.Drawing.Color.Transparent;
+            this.merchandise1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.merchandise1.Location = new System.Drawing.Point(28, 242);
+            this.merchandise1.Name = "merchandise1";
+            this.merchandise1.Size = new System.Drawing.Size(64, 63);
+            this.merchandise1.TabIndex = 17;
+            this.merchandise1.TabStop = false;
             // 
             // pictureBoxTray
             // 
@@ -270,65 +270,65 @@
             this.pictureFood3.TabIndex = 14;
             this.pictureFood3.TabStop = false;
             // 
-            // pictureBox17
+            // coffeM1
             // 
-            this.pictureBox17.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox17.Location = new System.Drawing.Point(416, 94);
-            this.pictureBox17.Name = "pictureBox17";
-            this.pictureBox17.Size = new System.Drawing.Size(46, 63);
-            this.pictureBox17.TabIndex = 13;
-            this.pictureBox17.TabStop = false;
+            this.coffeM1.BackColor = System.Drawing.Color.Transparent;
+            this.coffeM1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.coffeM1.Location = new System.Drawing.Point(416, 94);
+            this.coffeM1.Name = "coffeM1";
+            this.coffeM1.Size = new System.Drawing.Size(46, 63);
+            this.coffeM1.TabIndex = 13;
+            this.coffeM1.TabStop = false;
             // 
-            // pictureBox16
+            // coffeS1
             // 
-            this.pictureBox16.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox16.Location = new System.Drawing.Point(551, 94);
-            this.pictureBox16.Name = "pictureBox16";
-            this.pictureBox16.Size = new System.Drawing.Size(46, 63);
-            this.pictureBox16.TabIndex = 12;
-            this.pictureBox16.TabStop = false;
+            this.coffeS1.BackColor = System.Drawing.Color.Transparent;
+            this.coffeS1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.coffeS1.Location = new System.Drawing.Point(551, 94);
+            this.coffeS1.Name = "coffeS1";
+            this.coffeS1.Size = new System.Drawing.Size(46, 63);
+            this.coffeS1.TabIndex = 12;
+            this.coffeS1.TabStop = false;
             // 
-            // pictureBox15
+            // coffeL2
             // 
-            this.pictureBox15.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox15.Location = new System.Drawing.Point(344, 94);
-            this.pictureBox15.Name = "pictureBox15";
-            this.pictureBox15.Size = new System.Drawing.Size(46, 63);
-            this.pictureBox15.TabIndex = 11;
-            this.pictureBox15.TabStop = false;
+            this.coffeL2.BackColor = System.Drawing.Color.Transparent;
+            this.coffeL2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.coffeL2.Location = new System.Drawing.Point(344, 94);
+            this.coffeL2.Name = "coffeL2";
+            this.coffeL2.Size = new System.Drawing.Size(46, 63);
+            this.coffeL2.TabIndex = 11;
+            this.coffeL2.TabStop = false;
             // 
-            // pictureBox14
+            // coffeS2
             // 
-            this.pictureBox14.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox14.Location = new System.Drawing.Point(615, 94);
-            this.pictureBox14.Name = "pictureBox14";
-            this.pictureBox14.Size = new System.Drawing.Size(46, 63);
-            this.pictureBox14.TabIndex = 10;
-            this.pictureBox14.TabStop = false;
+            this.coffeS2.BackColor = System.Drawing.Color.Transparent;
+            this.coffeS2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.coffeS2.Location = new System.Drawing.Point(615, 94);
+            this.coffeS2.Name = "coffeS2";
+            this.coffeS2.Size = new System.Drawing.Size(46, 63);
+            this.coffeS2.TabIndex = 10;
+            this.coffeS2.TabStop = false;
             // 
-            // pictureBox13
+            // coffeL1
             // 
-            this.pictureBox13.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.pictureBox13.Location = new System.Drawing.Point(271, 94);
-            this.pictureBox13.Name = "pictureBox13";
-            this.pictureBox13.Size = new System.Drawing.Size(46, 63);
-            this.pictureBox13.TabIndex = 9;
-            this.pictureBox13.TabStop = false;
+            this.coffeL1.BackColor = System.Drawing.Color.Transparent;
+            this.coffeL1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.coffeL1.Location = new System.Drawing.Point(271, 94);
+            this.coffeL1.Name = "coffeL1";
+            this.coffeL1.Size = new System.Drawing.Size(46, 63);
+            this.coffeL1.TabIndex = 9;
+            this.coffeL1.TabStop = false;
             // 
-            // pictureBox12
+            // coffeM2
             // 
-            this.pictureBox12.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox12.Location = new System.Drawing.Point(480, 94);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(46, 63);
-            this.pictureBox12.TabIndex = 8;
-            this.pictureBox12.TabStop = false;
+            this.coffeM2.BackColor = System.Drawing.Color.Transparent;
+            this.coffeM2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.coffeM2.Location = new System.Drawing.Point(480, 94);
+            this.coffeM2.Name = "coffeM2";
+            this.coffeM2.Size = new System.Drawing.Size(46, 63);
+            this.coffeM2.TabIndex = 8;
+            this.coffeM2.TabStop = false;
             // 
             // pictureFood2
             // 
@@ -594,12 +594,12 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTray)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coffeM1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coffeS1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coffeL2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coffeS2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coffeL1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.coffeM2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood0)).EndInit();
@@ -631,26 +631,26 @@
         private System.Windows.Forms.PictureBox pictureBox10;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.PictureBox pictureBox12;
+        private System.Windows.Forms.PictureBox coffeM2;
         private System.Windows.Forms.PictureBox pictureFood2;
         private System.Windows.Forms.PictureBox pictureFood1;
         private System.Windows.Forms.PictureBox pictureFood0;
         private System.Windows.Forms.PictureBox pictureFood5;
         private System.Windows.Forms.PictureBox pictureFood7;
-        private System.Windows.Forms.PictureBox pictureBox14;
-        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox coffeS2;
+        private System.Windows.Forms.PictureBox coffeL1;
         private System.Windows.Forms.PictureBox pictureBoxCustomer;
         private System.Windows.Forms.PictureBox pictureBoxTray;
         private System.Windows.Forms.PictureBox pictureFood4;
         private System.Windows.Forms.PictureBox pictureFood3;
-        private System.Windows.Forms.PictureBox pictureBox17;
-        private System.Windows.Forms.PictureBox pictureBox16;
-        private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.PictureBox coffeM1;
+        private System.Windows.Forms.PictureBox coffeS1;
+        private System.Windows.Forms.PictureBox coffeL2;
         private System.Windows.Forms.Panel panel3;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.PictureBox pictureBox23;
-        private System.Windows.Forms.PictureBox pictureBox22;
+        private System.Windows.Forms.Label labelMerc2;
+        private System.Windows.Forms.Label labelMerc1;
+        private System.Windows.Forms.PictureBox merchandise2;
+        private System.Windows.Forms.PictureBox merchandise1;
         private System.Windows.Forms.Panel panel5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
