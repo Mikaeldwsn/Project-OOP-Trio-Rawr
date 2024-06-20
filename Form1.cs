@@ -166,7 +166,23 @@ namespace Project_OOP_Trio_Rawr
             coffeS1.SizeMode = PictureBoxSizeMode.StretchImage;
             coffeS2.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            items = new Merchandise(random.Next(1,5), "Plushie", Properties.Resources.plushie, 20000);
+            Merchandise merch1 = new Merchandise(random.Next(1, 5), "Plushie", Properties.Resources.plushie, 30000);
+            listofitems.Add(merch1);
+
+            labelMerc1.Text = merch1.Stock.ToString();
+            merchandise1.Tag = Properties.Resources.plushie;
+            merchandise1.Image = Properties.Resources.plushie;
+
+            merchandise1.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            Merchandise merch2 = new Merchandise(random.Next(1, 5), "Plushie", Properties.Resources.tumbler, 20000);
+            listofitems.Add(merch2);
+
+            labelMerc2.Text = merch2.Stock.ToString();
+            merchandise2.Tag = Properties.Resources.tumbler;
+            merchandise2.Image = Properties.Resources.tumbler;
+
+            merchandise2.SizeMode = PictureBoxSizeMode.StretchImage;
             this.Refresh();
         }
 
