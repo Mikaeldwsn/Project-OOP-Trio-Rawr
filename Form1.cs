@@ -4,9 +4,11 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Markup;
 
 namespace Project_OOP_Trio_Rawr
 {
@@ -72,8 +74,9 @@ namespace Project_OOP_Trio_Rawr
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            CreateCustomer();
             SetStallDisplay();
+            panelDialog.Visible = false;
+            labelDialog.Visible = false;
         }
 
         private void SetStallDisplay()
@@ -134,8 +137,72 @@ namespace Project_OOP_Trio_Rawr
             pictureFood6.Tag = ((Foods)items).Ingredients[0].Name;
             pictureFood7.Tag = ((Foods)items).Ingredients[1].Name;
 
+            pictureFood6.Image = ((Foods)items).Ingredients[0].Picture;
+            pictureFood7.Image = ((Foods)items).Ingredients[1].Picture;
 
+            pictureFood6.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureFood7.SizeMode = PictureBoxSizeMode.StretchImage;
 
+            items = new Foods("Large Coffe Cold", Properties.Resources.coffee_L_cold, 23000);
+
+            ((Foods)items).AddIngredient("Large Coffe Cold", Properties.Resources.coffee_L_cold);
+            coffeL1.Tag = ((Foods)items).Ingredients[0].Name;
+            coffeL1.Image = ((Foods)items).Ingredients[0].Picture;
+
+            items = new Foods("Large Coffe Hot", Properties.Resources.coffee_L_hot, 23000);
+
+            ((Foods)items).AddIngredient("Large Coffe Hot", Properties.Resources.coffee_L_hot);
+            coffeL2.Tag = ((Foods)items).Ingredients[0].Name;
+            coffeL2.Image = ((Foods)items).Ingredients[0].Picture;
+
+            items = new Foods("Medium Coffe Cold", Properties.Resources.coffee_M_cold, 15000);
+
+            ((Foods)items).AddIngredient("Medium Coffe Cold", Properties.Resources.coffee_M_cold);
+            coffeM1.Tag = ((Foods)items).Ingredients[0].Name;
+            coffeM1.Image = ((Foods)items).Ingredients[0].Picture;
+
+            items = new Foods("Medium Coffe Hot", Properties.Resources.coffee_M_hot, 15000);
+
+            ((Foods)items).AddIngredient("Medium Coffe Cold", Properties.Resources.coffee_M_hot);
+            coffeM2.Tag = ((Foods)items).Ingredients[0].Name;
+            coffeM2.Image = ((Foods)items).Ingredients[0].Picture;
+
+            items = new Foods("Smaal Coffe Cold", Properties.Resources.coffee_S_cold, 8000);
+
+            ((Foods)items).AddIngredient("Small Coffe Cold", Properties.Resources.coffee_S_cold);
+            coffeS1.Tag = ((Foods)items).Ingredients[0].Name;
+            coffeS1.Image = ((Foods)items).Ingredients[0].Picture;
+
+            items = new Foods("Small Coffe Hot", Properties.Resources.coffee_S_hot, 8000);
+
+            ((Foods)items).AddIngredient("Small Coffe Hot", Properties.Resources.coffee_S_hot);
+            coffeS2.Tag = ((Foods)items).Ingredients[0].Name;
+            coffeS2.Image = ((Foods)items).Ingredients[0].Picture;
+
+            coffeL1.SizeMode = PictureBoxSizeMode.StretchImage;
+            coffeL2.SizeMode = PictureBoxSizeMode.StretchImage;
+            coffeM1.SizeMode = PictureBoxSizeMode.StretchImage;
+            coffeM2.SizeMode = PictureBoxSizeMode.StretchImage;
+            coffeS1.SizeMode = PictureBoxSizeMode.StretchImage;
+            coffeS2.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            Merchandise merch1 = new Merchandise(random.Next(1, 5), "Plushie", Properties.Resources.plushie, 30000);
+            listofitems.Add(merch1);
+
+            labelMerc1.Text = merch1.Stock.ToString();
+            merchandise1.Tag = Properties.Resources.plushie;
+            merchandise1.Image = Properties.Resources.plushie;
+
+            merchandise1.SizeMode = PictureBoxSizeMode.StretchImage;
+
+            Merchandise merch2 = new Merchandise(random.Next(1, 5), "Plushie", Properties.Resources.tumbler, 20000);
+            listofitems.Add(merch2);
+
+            labelMerc2.Text = merch2.Stock.ToString();
+            merchandise2.Tag = Properties.Resources.tumbler;
+            merchandise2.Image = Properties.Resources.tumbler;
+
+            merchandise2.SizeMode = PictureBoxSizeMode.StretchImage;
             this.Refresh();
         }
 
@@ -174,13 +241,27 @@ namespace Project_OOP_Trio_Rawr
             }
 
             pictureBoxCustomer.Image = customers.Picture;
-            pictureBoxCustomer.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBoxCustomer.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBoxCustomer.BackColor = Color.Transparent;
+
+            panelDialog.BackgroundImage = Properties.Resources.dialog;
+            labelDialog.Text = customers.Display();
+            panelDialog.Visible = true;
+            pictureBoxOrder.Visible = false;
+
+            pictureBoxTray.Image = null;
+            pictureBoxServe.Image = null;
+            pictureBoxServe.Tag = "none";
         }
 
         public void CreateOrder()
         {
 
+        }
+
+        private void newGameToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            CreateCustomer();
         }
         private void CreateCustomerOrder()
         {
