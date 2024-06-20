@@ -13,9 +13,10 @@ namespace Project_OOP_Trio_Rawr
     {
         private string name;
         private Image picture;
-        private int type;
+        private string type;
+        private Items item;
 
-        public Customers(string name, Image picture, int type)
+        public Customers(string name, Image picture, string type)
         {
             Name = name;
             Picture = picture;
@@ -24,11 +25,24 @@ namespace Project_OOP_Trio_Rawr
 
         public string Name { get => name; set => name = value; }
         public Image Picture { get => picture; set => picture = value; }
-        public int Type { get => type; set => type = value; }
+        public string Type { get => type; set => type = value; }
+        public Items Item { get => item; set => item = value; }
 
-        public Image display()
+        public string display()
         {
-            return this.Picture;
+            if (type.ToLower() == "man")
+            {
+                return $"helo my name is {this.Name}";
+            }
+            else if (type.ToLower() == "woman")
+            {
+                return $"";
+            }
+            else if (type.ToLower() == "kid")
+            {
+                return $"morning..";
+            }
+            return "";
         }
 
         //public Items AddOrder()

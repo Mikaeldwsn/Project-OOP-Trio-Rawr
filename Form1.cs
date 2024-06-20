@@ -20,6 +20,7 @@ namespace Project_OOP_Trio_Rawr
         Players players;
         Time time;
         public List<Ingredients> listselectedFood = new List<Ingredients>();
+        Random random = new Random();
 
         string filename = "game.dat";
         public Form1()
@@ -106,5 +107,30 @@ namespace Project_OOP_Trio_Rawr
         {
 
         }
+        public void CreateCustomer()
+        {
+            
+            int randomNum = random.Next(0, 2);
+
+            if (randomNum == 0)
+            {
+                customers = new Customers("");
+            } 
+            if (randomNum == 1)
+            {
+
+            }
+            if (randomNum == 2)
+            {
+
+            }
+        }
+
+        public void CreateOrder()
+        {
+
+        }
     }
+
+   
 }
