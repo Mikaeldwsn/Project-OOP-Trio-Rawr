@@ -166,7 +166,7 @@ namespace Project_OOP_Trio_Rawr
             coffeS1.SizeMode = PictureBoxSizeMode.StretchImage;
             coffeS2.SizeMode = PictureBoxSizeMode.StretchImage;
 
-            items = new Merchandise(, "Plushie", Properties.Resources.plushie, 20000);
+            items = new Merchandise(random.Next(1,5), "Plushie", Properties.Resources.plushie, 20000);
             this.Refresh();
         }
 
