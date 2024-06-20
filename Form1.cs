@@ -137,10 +137,10 @@ namespace Project_OOP_Trio_Rawr
         }
         private void correctorder(Items order)
         {
-            pictureBox5.Image = order.Picture;
-            pictureBox5.Tag = "done";
+            pictureBoxOrder.Image = order.Picture;
+            pictureBoxOrder.Tag = "done";
 
-            pictureBox26.Image = Properties.Resources.money;
+            pictureBoxOrder.Image = Properties.Resources.money;
 
             players.BestIncome += order.Price;
             label2.Text = players.Display();
