@@ -18,12 +18,13 @@ namespace Project_OOP_Trio_Rawr
 
         int remainingcustomers;
         Items items;
+        int incTimerCust;
         Customers customers;
         Players players;
         Time time;
         public List<Ingredients> listselectedFood = new List<Ingredients>();
         Random random = new Random();
-
+        int selectedIngCount;
         string filename = "game.dat";
         public Form1()
         {
@@ -34,21 +35,38 @@ namespace Project_OOP_Trio_Rawr
         {
             this.BackgroundImage = null;
 
-            //createplayer(); menambahkkan data player
+            CreatePlayer();
 
             label3.Visible = true;
             label1.Visible = true;
            
-
+            SetStallDisplay();
+            
             remainingcustomers = 5;
             label3.Text = "Remaining Customers: " + remainingcustomers.ToString();
-           // time = new Time(0,0,0);
+            
+            time = new Time(0,0,0);
            //label1.Text= 
            
             //play sound
             
         }
+        private void correctorder(Items order)
+        {
+            pictureBox5.Image = order.Picture;
+            pictureBox5.Tag = "done";
 
+            pictureBox26.Image = Properties.Resources.money;
+
+            players.BestIncome += order.Price;
+            label2.Text = players.Display();
+            selectedIngCount = 0;
+            remainingcustomers--;
+            label3.Text = "Remaining Customers: "+remainingcustomers.ToString();
+            incTimerCust = 0;
+            
+
+        }
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
@@ -64,6 +82,8 @@ namespace Project_OOP_Trio_Rawr
         private void SetStallDisplay()
         {
             CreateFoods();
+
+            
         }
         private void CreateFoods()
         {
@@ -195,6 +215,13 @@ namespace Project_OOP_Trio_Rawr
         {
 
         }
+        private void CreatePlayer()
+        {
+            //if (File.Exist(filename))
+            //{
+                
+            //}
+        }
         public void CreateCustomer()
         {
             
@@ -235,6 +262,44 @@ namespace Project_OOP_Trio_Rawr
         private void newGameToolStripMenuItem1_Click(object sender, EventArgs e)
         {
             CreateCustomer();
+        }
+        private void CreateCustomerOrder()
+        {
+            Random bilrandomitemtpe= new Random();
+            int hasilrandomitemtype = bilrandomitemtpe.Next(0, 3);
+            
+            if(hasilrandomitemtype ==0)
+            {
+                if(customers.Type == "male")
+                {
+                    // customers.orderitem = listItem[0];
+                }
+                else if(customers.Type == "female")
+                {
+                    // customers.orderitem = listItem[1];
+                }
+                else if(customers.Type == "kid")
+                {
+                    // customers.orderitem = listItem[2];
+                }
+
+            }
+            else if(hasilrandomitemtype == 1)
+            {
+                Random bilrandombeverage = new Random();
+                int hasilrandombeverages = bilrandombeverage.Next(3, 9);
+
+                // customers.orderitem = listItem[hasilrandombeverages];
+            }
+            else if (hasilrandomitemtype == 2)
+            {
+                Random bilrandommerchandise = new Random();
+                int hasilrandommerchandise = bilrandommerchandise.Next(9, 11);
+
+                //if ((Merchandise)listofitems[hasilrandommerchandise]).Stock >0)
+
+            }
+
         }
     }
 
