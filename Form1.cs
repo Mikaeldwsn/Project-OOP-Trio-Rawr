@@ -86,7 +86,6 @@ namespace Project_OOP_Trio_Rawr
             pictureFood1.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureFood2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureFood3.SizeMode = PictureBoxSizeMode.StretchImage;
-            pictureFood4.SizeMode = PictureBoxSizeMode.StretchImage;
             this.Refresh();
 
             items = new Foods("healthy salad", Properties.Resources.salad, 25000);
@@ -107,8 +106,5 @@ namespace Project_OOP_Trio_Rawr
         {
 
         }
-    }
-}
-       
     }
 }

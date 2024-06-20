@@ -242,13 +242,7 @@
             // 
             // pictureBox20
             // 
-            this.pictureFood4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureFood4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureFood4.Location = new System.Drawing.Point(586, 3);
-            this.pictureFood4.Name = "pictureFood4";
-            this.pictureFood4.Size = new System.Drawing.Size(66, 59);
-            this.pictureFood4.TabIndex = 16;
-            this.pictureFood4.TabStop = false;
+            
             this.pictureBox20.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox20.Location = new System.Drawing.Point(586, -1);
