@@ -57,7 +57,7 @@ namespace Project_OOP_Trio_Rawr
         {
             if (type == "foods")
             {
-                if (customers.orderitem is Foods)
+                if (customers.OrderItem is Foods)
                 {
                     Foods foodorder = (Foods)customers.orderitem;
                     if (picturebox.Tag.ToString() == foodorder.ingredients[selectedIngCount].Name)
@@ -411,11 +411,6 @@ namespace Project_OOP_Trio_Rawr
             CreatePlayer();
             SetStallDisplay();
             label3.Text = "Remaining Customers: " + remainingcustomers.ToString();
-        }
-
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
 
         private void timerGame_Tick(object sender, EventArgs e)

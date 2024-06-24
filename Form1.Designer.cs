@@ -69,10 +69,6 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.newGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.newGameToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timerGame = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -568,7 +564,6 @@
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(47, 26);
             this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // timerGame
             // 
@@ -682,10 +677,7 @@
         private System.Windows.Forms.PictureBox pictureBoxServe;
         private System.Windows.Forms.Panel panelDialog;
         private System.Windows.Forms.Label labelDialog;
-        private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem gameToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem newGameToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.Timer timerGame;
     }
 }
