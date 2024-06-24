@@ -682,10 +682,7 @@
         private System.Windows.Forms.PictureBox pictureBoxServe;
         private System.Windows.Forms.Panel panelDialog;
         private System.Windows.Forms.Label labelDialog;
-        private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem gameToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem newGameToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.Timer timerGame;
     }
 }
