@@ -48,6 +48,88 @@ namespace Project_OOP_Trio_Rawr
             
 
         }
+        private void serverorder(PictureBox picturebox, string type)
+        {
+            if (type == "foods")
+            {
+                if (customers.orderitem is Foods)
+                {
+                    Foods foodorder = (Foods)customers.orderitem;
+                    if (picturebox.Tag.ToString() == foodorder.ListIngredients[selectedIngCount].Name)
+                    {
+                        selectedIngCount++;
+                        pictureboxtray.Image = picturebox.Image;
+
+                        if (selectedIngCount == foodorder.listIngredients.Count)
+                        {
+                            correctorder(foodorder);
+                        }
+                    }
+                }
+                else
+                {
+                    wrongorder();
+                }
+            }
+            else if (type == "beverages")
+            {
+                if (customers.orderitem is Beverages)
+                {
+                    Beverages bevorder = (Beverages)customers.orderitem;
+                    pictureBoxTray.Image = picturebox.Image;
+
+                    if ((picturebox.Tag.ToString() == "0" && bevorder.IsCold == false && bevorder.Size == "L") ||
+                        (picturebox.Tag.ToString() == "0" && bevorder.IsCold == false && bevorder.Size == "L") ||
+                        (picturebox.Tag.ToString() == "0" && bevorder.IsCold == false && bevorder.Size == "L") ||
+                        (picturebox.Tag.ToString() == "0" && bevorder.IsCold == false && bevorder.Size == "L") ||
+                        (picturebox.Tag.ToString() == "0" && bevorder.IsCold == false && bevorder.Size == "L") ||
+                        (picturebox.Tag.ToString() == "0" && bevorder.IsCold == false && bevorder.Size == "L"))
+                    {
+                        correctorder(bevorder);
+                    }
+                    else
+                    {
+                        wrongorder();
+                    }
+                }
+                else
+                {
+                    wrongorder();
+                }
+            }
+            else if (type == "merchandise")
+            {
+                if (customers.orderitem is Merchandise)
+                {
+                    Merchandise merchorder = (Merchandise)Customers.orderitem;
+                    pictureBoxTray.Image = picturebox.Image;
+                    if (picturebox.Tag.ToString() == merchorder.Name)
+                    {
+                        merchorder.Sell();
+                        if (merchorder.Name == "tumbler")
+                        {
+                            labelMerch1.Text = merchorder.Stock.ToString() + "x";
+                        }
+                        else if (merchorder.Name == "plushie")
+                        {
+                            labelMerc2.Text = merchorder.Stock.ToString() + "x";
+                        }
+                        correctorder(merchorder);
+                    }
+                    else
+                    {
+                        wrongorder();
+                    }
+                }
+                else
+                {
+                    wrongorder();
+                }
+            }
+
+
+
+        }
 
         private void Form1_Load(object sender, EventArgs e)
         {
