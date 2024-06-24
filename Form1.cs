@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
+using System.Configuration;
 using System.Data;
 using System.Drawing;
 using System.Linq;
@@ -46,10 +47,6 @@ namespace Project_OOP_Trio_Rawr
             incTimerCust = 0;
             
 
-        }
-        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -243,26 +240,26 @@ namespace Project_OOP_Trio_Rawr
 
         private void CreateCustomerOrder()
         {
-            Random bilrandomitemtpe= new Random();
+            Random bilrandomitemtpe = new Random();
             int hasilrandomitemtype = bilrandomitemtpe.Next(0, 3);
-            
-            if(hasilrandomitemtype ==0)
+
+            if (hasilrandomitemtype == 0)
             {
-                if(customers.Type == "male")
+                if (customers.Type == "male")
                 {
                     // customers.orderitem = listItem[0];
                 }
-                else if(customers.Type == "female")
+                else if (customers.Type == "female")
                 {
                     // customers.orderitem = listItem[1];
                 }
-                else if(customers.Type == "kid")
+                else if (customers.Type == "kid")
                 {
                     // customers.orderitem = listItem[2];
                 }
 
             }
-            else if(hasilrandomitemtype == 1)
+            else if (hasilrandomitemtype == 1)
             {
                 Random bilrandombeverage = new Random();
                 int hasilrandombeverages = bilrandombeverage.Next(3, 9);
@@ -277,7 +274,31 @@ namespace Project_OOP_Trio_Rawr
                 //if ((Merchandise)listofitems[hasilrandommerchandise]).Stock >0)
 
             }
+        }
 
+        private void newGameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackgroundImage = null;
+
+            CreatePlayer();
+
+            label3.Visible = true;
+            label1.Visible = true;
+
+            SetStallDisplay();
+
+            remainingcustomers = 5;
+            label3.Text = "Remaining Customers: " + remainingcustomers.ToString();
+
+            time = new Time(0, 0, 0);
+            //label1.Text= 
+
+            //play sound
+        }
+
+        private void exitToolStripMenuItem_Click_1(object sender, EventArgs e)
+        {
+            this.Close();
         }
 
         private void panel2_Paint_1(object sender, PaintEventArgs e)
@@ -327,6 +348,4 @@ namespace Project_OOP_Trio_Rawr
             //play sound
         }
     }
-
-   
 }
