@@ -31,32 +31,12 @@ namespace Project_OOP_Trio_Rawr
             InitializeComponent();
         }
 
-        private void newGameToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            this.BackgroundImage = null;
-
-            CreatePlayer();
-
-            label3.Visible = true;
-            label1.Visible = true;
-           
-            SetStallDisplay();
-            
-            remainingcustomers = 5;
-            label3.Text = "Remaining Customers: " + remainingcustomers.ToString();
-            
-            time = new Time(0,0,0);
-           //label1.Text= 
-           
-            //play sound
-            
-        }
         private void correctorder(Items order)
         {
-            pictureBox5.Image = order.Picture;
-            pictureBox5.Tag = "done";
+            pictureBoxOrder.Image = order.Picture;
+            pictureBoxOrder.Tag = "done";
 
-            pictureBox26.Image = Properties.Resources.money;
+            pictureBoxOrder.Image = Properties.Resources.money;
 
             players.BestIncome += order.Price;
             label2.Text = players.Display();
@@ -77,13 +57,15 @@ namespace Project_OOP_Trio_Rawr
             SetStallDisplay();
             panelDialog.Visible = false;
             labelDialog.Visible = false;
+            panel3.Visible = false;
+            panel1.Visible = false;
+            panel2.Visible = false;
         }
 
         private void SetStallDisplay()
         {
             CreateFoods();
-
-            
+            CreateCustomer();
         }
         private void CreateFoods()
         {
@@ -259,10 +241,6 @@ namespace Project_OOP_Trio_Rawr
 
         }
 
-        private void newGameToolStripMenuItem1_Click(object sender, EventArgs e)
-        {
-            CreateCustomer();
-        }
         private void CreateCustomerOrder()
         {
             Random bilrandomitemtpe= new Random();
@@ -300,6 +278,53 @@ namespace Project_OOP_Trio_Rawr
 
             }
 
+        }
+
+        private void panel2_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+        private void newGameToolStripMenuItem1_Click_1(object sender, EventArgs e)
+        {
+            this.BackgroundImage = null;
+
+            CreatePlayer();
+
+            label3.Visible = true;
+            label1.Visible = true;
+
+            SetStallDisplay();
+
+            remainingcustomers = 5;
+            label3.Text = "Remaining Customers: " + remainingcustomers.ToString();
+
+            //time = new Time(0,0,0);
+            //label1.Text= 
+
+            //play sound
+        }
+
+        private void newGameToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            this.BackgroundImage = null;
+
+            label3.Visible = true;
+            label1.Visible = true;
+
+            SetStallDisplay();
+
+            remainingcustomers = 5;
+            label3.Text = "Remaining Customers: " + remainingcustomers.ToString();
+
+            //time = new Time(0,0,0);
+            //label1.Text= 
+
+            //play sound
         }
     }
 

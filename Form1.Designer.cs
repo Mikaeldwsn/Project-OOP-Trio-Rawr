@@ -35,15 +35,11 @@
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
             this.pictureBoxServe = new System.Windows.Forms.PictureBox();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.pictureBox23 = new System.Windows.Forms.PictureBox();
-            this.pictureBox22 = new System.Windows.Forms.PictureBox();
+            this.labelMerc2 = new System.Windows.Forms.Label();
+            this.labelMerc1 = new System.Windows.Forms.Label();
+            this.merchandise2 = new System.Windows.Forms.PictureBox();
+            this.merchandise1 = new System.Windows.Forms.PictureBox();
             this.pictureBoxTray = new System.Windows.Forms.PictureBox();
             this.pictureFood4 = new System.Windows.Forms.PictureBox();
             this.pictureFood3 = new System.Windows.Forms.PictureBox();
@@ -83,11 +79,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxServe)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.merchandise2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.merchandise1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTray)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood3)).BeginInit();
@@ -172,15 +166,11 @@
             this.panel1.BackColor = System.Drawing.Color.PeachPuff;
             this.panel1.BackgroundImage = global::Project_OOP_Trio_Rawr.Properties.Resources.food_stall;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.pictureBox23);
-            this.panel1.Controls.Add(this.pictureBox22);
             this.panel1.Controls.Add(this.pictureBoxServe);
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.pictureBox23);
-            this.panel1.Controls.Add(this.pictureBox22);
+            this.panel1.Controls.Add(this.labelMerc2);
+            this.panel1.Controls.Add(this.labelMerc1);
+            this.panel1.Controls.Add(this.merchandise2);
+            this.panel1.Controls.Add(this.merchandise1);
             this.panel1.Controls.Add(this.pictureBoxTray);
             this.panel1.Controls.Add(this.pictureFood4);
             this.panel1.Controls.Add(this.pictureFood3);
@@ -211,45 +201,45 @@
             this.pictureBoxServe.TabIndex = 24;
             this.pictureBoxServe.TabStop = false;
             // 
-            // label8
+            // labelMerc2
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Location = new System.Drawing.Point(833, 308);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(44, 16);
-            this.label8.TabIndex = 23;
-            this.label8.Text = "label8";
+            this.labelMerc2.AutoSize = true;
+            this.labelMerc2.BackColor = System.Drawing.Color.Transparent;
+            this.labelMerc2.Location = new System.Drawing.Point(833, 308);
+            this.labelMerc2.Name = "labelMerc2";
+            this.labelMerc2.Size = new System.Drawing.Size(44, 16);
+            this.labelMerc2.TabIndex = 23;
+            this.labelMerc2.Text = "label8";
             // 
-            // label7
+            // labelMerc1
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Location = new System.Drawing.Point(25, 308);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(44, 16);
-            this.label7.TabIndex = 22;
-            this.label7.Text = "label7";
+            this.labelMerc1.AutoSize = true;
+            this.labelMerc1.BackColor = System.Drawing.Color.Transparent;
+            this.labelMerc1.Location = new System.Drawing.Point(25, 308);
+            this.labelMerc1.Name = "labelMerc1";
+            this.labelMerc1.Size = new System.Drawing.Size(44, 16);
+            this.labelMerc1.TabIndex = 22;
+            this.labelMerc1.Text = "label7";
             // 
-            // pictureBox23
+            // merchandise2
             // 
-            this.pictureBox23.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox23.Location = new System.Drawing.Point(831, 242);
-            this.pictureBox23.Name = "pictureBox23";
-            this.pictureBox23.Size = new System.Drawing.Size(46, 63);
-            this.pictureBox23.TabIndex = 18;
-            this.pictureBox23.TabStop = false;
+            this.merchandise2.BackColor = System.Drawing.Color.Transparent;
+            this.merchandise2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.merchandise2.Location = new System.Drawing.Point(831, 242);
+            this.merchandise2.Name = "merchandise2";
+            this.merchandise2.Size = new System.Drawing.Size(46, 63);
+            this.merchandise2.TabIndex = 18;
+            this.merchandise2.TabStop = false;
             // 
-            // pictureBox22
+            // merchandise1
             // 
-            this.pictureBox22.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox22.Location = new System.Drawing.Point(28, 242);
-            this.pictureBox22.Name = "pictureBox22";
-            this.pictureBox22.Size = new System.Drawing.Size(46, 63);
-            this.pictureBox22.TabIndex = 17;
-            this.pictureBox22.TabStop = false;
+            this.merchandise1.BackColor = System.Drawing.Color.Transparent;
+            this.merchandise1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.merchandise1.Location = new System.Drawing.Point(28, 242);
+            this.merchandise1.Name = "merchandise1";
+            this.merchandise1.Size = new System.Drawing.Size(46, 63);
+            this.merchandise1.TabIndex = 17;
+            this.merchandise1.TabStop = false;
             // 
             // pictureBoxTray
             // 
@@ -402,6 +392,7 @@
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(909, 262);
             this.panel2.TabIndex = 11;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint_1);
             // 
             // panelDialog
             // 
@@ -545,18 +536,18 @@
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(909, 30);
+            this.menuStrip1.Size = new System.Drawing.Size(909, 28);
             this.menuStrip1.TabIndex = 18;
             this.menuStrip1.Text = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
             // newGameToolStripMenuItem
             // 
             this.newGameToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.newGameToolStripMenuItem1});
             this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
-            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(62, 26);
+            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(62, 24);
             this.newGameToolStripMenuItem.Text = "Game";
-            this.newGameToolStripMenuItem.Click += new System.EventHandler(this.newGameToolStripMenuItem_Click);
             // 
             // newGameToolStripMenuItem1
             // 
@@ -568,7 +559,7 @@
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(47, 26);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(47, 24);
             this.exitToolStripMenuItem.Text = "Exit";
             this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
@@ -598,11 +589,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxServe)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox22)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.merchandise2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.merchandise1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxTray)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood3)).EndInit();
@@ -660,7 +649,7 @@
         private System.Windows.Forms.PictureBox coffeL2;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.Label labelMerc2;
-        private System.Windows.Forms.Label labelMerch1;
+        private System.Windows.Forms.Label labelMerc1;
         private System.Windows.Forms.PictureBox merchandise2;
         private System.Windows.Forms.PictureBox merchandise1;
         private System.Windows.Forms.Panel panel5;
