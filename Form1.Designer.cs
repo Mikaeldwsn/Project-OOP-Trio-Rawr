@@ -35,11 +35,11 @@
             this.pictureBox9 = new System.Windows.Forms.PictureBox();
             this.pictureBox10 = new System.Windows.Forms.PictureBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.pictureBoxServe = new System.Windows.Forms.PictureBox();
             this.labelMerc2 = new System.Windows.Forms.Label();
             this.labelMerc1 = new System.Windows.Forms.Label();
             this.merchandise2 = new System.Windows.Forms.PictureBox();
             this.merchandise1 = new System.Windows.Forms.PictureBox();
+            this.pictureBoxServe = new System.Windows.Forms.PictureBox();
             this.pictureBoxTray = new System.Windows.Forms.PictureBox();
             this.pictureFood4 = new System.Windows.Forms.PictureBox();
             this.pictureFood3 = new System.Windows.Forms.PictureBox();
@@ -68,10 +68,9 @@
             this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.pictureBox24 = new System.Windows.Forms.PictureBox();
-            this.newGameToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.gameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.newGameToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.newGameToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
@@ -80,6 +79,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
             this.panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.merchandise2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.merchandise1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxServe)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.merchandise2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.merchandise1)).BeginInit();
@@ -167,6 +168,10 @@
             this.panel1.BackColor = System.Drawing.Color.PeachPuff;
             this.panel1.BackgroundImage = global::Project_OOP_Trio_Rawr.Properties.Resources.food_stall;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.panel1.Controls.Add(this.labelMerc2);
+            this.panel1.Controls.Add(this.labelMerc1);
+            this.panel1.Controls.Add(this.merchandise2);
+            this.panel1.Controls.Add(this.merchandise1);
             this.panel1.Controls.Add(this.pictureBoxServe);
             this.panel1.Controls.Add(this.labelMerc2);
             this.panel1.Controls.Add(this.labelMerc1);
@@ -202,42 +207,42 @@
             this.pictureBoxServe.TabIndex = 24;
             this.pictureBoxServe.TabStop = false;
             // 
-            // labelMerc2
+            // label8
             // 
             this.labelMerc2.AutoSize = true;
             this.labelMerc2.BackColor = System.Drawing.Color.Transparent;
             this.labelMerc2.Location = new System.Drawing.Point(833, 308);
-            this.labelMerc2.Name = "labelMerc2";
+            this.labelMerc2.Name = "label8";
             this.labelMerc2.Size = new System.Drawing.Size(44, 16);
             this.labelMerc2.TabIndex = 23;
             this.labelMerc2.Text = "label8";
             // 
-            // labelMerc1
+            // label7
             // 
             this.labelMerc1.AutoSize = true;
             this.labelMerc1.BackColor = System.Drawing.Color.Transparent;
             this.labelMerc1.Location = new System.Drawing.Point(25, 308);
-            this.labelMerc1.Name = "labelMerc1";
+            this.labelMerc1.Name = "label7";
             this.labelMerc1.Size = new System.Drawing.Size(44, 16);
             this.labelMerc1.TabIndex = 22;
             this.labelMerc1.Text = "label7";
             // 
-            // merchandise2
+            // pictureBox23
             // 
             this.merchandise2.BackColor = System.Drawing.Color.Transparent;
             this.merchandise2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.merchandise2.Location = new System.Drawing.Point(831, 242);
-            this.merchandise2.Name = "merchandise2";
+            this.merchandise2.Name = "pictureBox23";
             this.merchandise2.Size = new System.Drawing.Size(46, 63);
             this.merchandise2.TabIndex = 18;
             this.merchandise2.TabStop = false;
             // 
-            // merchandise1
+            // pictureBox22
             // 
             this.merchandise1.BackColor = System.Drawing.Color.Transparent;
             this.merchandise1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.merchandise1.Location = new System.Drawing.Point(28, 242);
-            this.merchandise1.Name = "merchandise1";
+            this.merchandise1.Name = "pictureBox22";
             this.merchandise1.Size = new System.Drawing.Size(46, 63);
             this.merchandise1.TabIndex = 17;
             this.merchandise1.TabStop = false;
@@ -528,46 +533,41 @@
             this.pictureBox24.TabIndex = 19;
             this.pictureBox24.TabStop = false;
             // 
-            // newGameToolStripMenuItem1
-            // 
-            this.newGameToolStripMenuItem1.Name = "newGameToolStripMenuItem1";
-            this.newGameToolStripMenuItem1.Size = new System.Drawing.Size(32, 19);
-            // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.MistyRose;
+            this.menuStrip1.BackColor = System.Drawing.Color.DarkSalmon;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.gameToolStripMenuItem,
+            this.newGameToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(909, 28);
-            this.menuStrip1.TabIndex = 24;
+            this.menuStrip1.Size = new System.Drawing.Size(909, 30);
+            this.menuStrip1.TabIndex = 18;
             this.menuStrip1.Text = "menuStrip1";
             this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip1_ItemClicked);
             // 
-            // gameToolStripMenuItem
-            // 
-            this.gameToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.newGameToolStripMenuItem});
-            this.gameToolStripMenuItem.Name = "gameToolStripMenuItem";
-            this.gameToolStripMenuItem.Size = new System.Drawing.Size(62, 24);
-            this.gameToolStripMenuItem.Text = "Game";
-            // 
             // newGameToolStripMenuItem
             // 
+            this.newGameToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.newGameToolStripMenuItem1});
             this.newGameToolStripMenuItem.Name = "newGameToolStripMenuItem";
-            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.newGameToolStripMenuItem.Text = "New Game";
+            this.newGameToolStripMenuItem.Size = new System.Drawing.Size(62, 26);
+            this.newGameToolStripMenuItem.Text = "Game";
             this.newGameToolStripMenuItem.Click += new System.EventHandler(this.newGameToolStripMenuItem_Click);
+            // 
+            // newGameToolStripMenuItem1
+            // 
+            this.newGameToolStripMenuItem1.Name = "newGameToolStripMenuItem1";
+            this.newGameToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
+            this.newGameToolStripMenuItem1.Text = "New Game";
             // 
             // exitToolStripMenuItem
             // 
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
-            this.exitToolStripMenuItem.Size = new System.Drawing.Size(47, 24);
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(47, 26);
             this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click_1);
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -583,6 +583,7 @@
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox4);
+            this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -594,6 +595,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.merchandise2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.merchandise1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxServe)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.merchandise2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.merchandise1)).EndInit();
@@ -666,14 +669,13 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.PictureBox pictureBox24;
         private System.Windows.Forms.PictureBox pictureBoxOrder;
+        private System.Windows.Forms.MenuStrip menuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem newGameToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem newGameToolStripMenuItem1;
         private System.Windows.Forms.PictureBox pictureBoxServe;
         private System.Windows.Forms.Panel panelDialog;
         private System.Windows.Forms.Label labelDialog;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem gameToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem newGameToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
     }
 }
 
