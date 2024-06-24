@@ -283,26 +283,24 @@ namespace Project_OOP_Trio_Rawr
             panelDialog.Visible = true;
             panel3.Visible = true;
             panel5.Visible = true;
-
-            CreatePlayer();
-
+            remainingcustomers = 5;
             label3.Visible = true;
             label1.Visible = true;
-
+            time = new Time(0, 5, 0);
+            timerGame.Start();
+            CreatePlayer();
             SetStallDisplay();
-
-            remainingcustomers = 5;
             label3.Text = "Remaining Customers: " + remainingcustomers.ToString();
-
-            time = new Time(0, 0, 0);
-            //label1.Text= 
-
-            //play sound
         }
 
         private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void timerGame_Tick(object sender, EventArgs e)
+        {
+            time.Add(-1);
         }
     }
 }
