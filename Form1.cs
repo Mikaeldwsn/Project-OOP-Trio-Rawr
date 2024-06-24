@@ -32,6 +32,109 @@ namespace Project_OOP_Trio_Rawr
             InitializeComponent();
         }
 
+        private void newGameToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.BackgroundImage = null;
+
+            CreatePlayer();
+
+            label3.Visible = true;
+            label1.Visible = true;
+           
+            SetStallDisplay();
+            
+            remainingcustomers = 5;
+            label3.Text = "Remaining Customers: " + remainingcustomers.ToString();
+            
+            time = new Time(0,0,0);
+           //label1.Text= 
+           
+            //play sound
+            
+        }
+
+        private void serverorder(PictureBox picturebox, string type)
+        {
+            if (type == "foods")
+            {
+                if (customers.orderitem is Foods)
+                {
+                    Foods foodorder = (Foods)customers.orderitem;
+                    if (picturebox.Tag.ToString() == foodorder.ingredients[selectedIngCount].Name)
+                    {
+                        selectedIngCount++;
+                        pictureBoxTray.Image = picturebox.Image;
+
+                        if(selectedIngCount == foodorder.listIngredients.Count)
+                        {
+                            correctorder(foodorder);
+                        }
+                    }
+                }
+                else
+                {
+                    wrongorder();
+                }
+            }
+            else if(type == "beverages")
+            {
+                if(customers.orderitem is Beverages)
+                {
+                    Beverages bevorder =(Beverages)customers.orderitem;
+                    pictureBoxTray.Image = picturebox.Image;
+
+                    if ((picturebox.Tag.ToString() == "0" && bevorder.IsCold == false && bevorder.Size == "L") ||
+                        (picturebox.Tag.ToString() == "0" && bevorder.IsCold == false && bevorder.Size == "L") ||
+                        (picturebox.Tag.ToString() == "0" && bevorder.IsCold == false && bevorder.Size == "L") ||
+                        (picturebox.Tag.ToString() == "0" && bevorder.IsCold == false && bevorder.Size == "L") ||
+                        (picturebox.Tag.ToString() == "0" && bevorder.IsCold == false && bevorder.Size == "L") ||
+                        (picturebox.Tag.ToString() == "0" && bevorder.IsCold == false && bevorder.Size == "L"))
+                    {
+                        correctorder(bevorder);
+                    }
+                    else
+                    {
+                        wrongorder();
+                    }
+                }
+                else
+                {
+                    wrongorder();
+                }
+            }
+            else if(type == "merchandise")
+            {
+                if(customers.orderitem is Merchandise)
+                {
+                    Merchandise merchorder = (Merchandise)Customers.orderitem;
+                    pictureBoxTray.Image = picturebox.Image;
+                    if(picturebox.Tag.ToString()== merchorder.Name)
+                    {
+                        merchorder.Sell();
+                        if(merchorder.Name == "tumbler")
+                        {
+                            labelMerch1.Text = merchorder.Stock.ToString() + "x";
+                        }
+                        else if(merchorder.Name == "plushie")
+                        {
+                            labelMerc2.Text = merchorder.Stock.ToString() + "x";
+                        }
+                        correctorder(merchorder);
+                    }
+                    else
+                    {
+                        wrongorder();
+                    }
+                }
+                else
+                {
+                    wrongorder();
+                }
+            }
+            
+
+            
+        }
         private void correctorder(Items order)
         {
             pictureBoxOrder.Image = order.Picture;
@@ -142,8 +245,7 @@ namespace Project_OOP_Trio_Rawr
         private void SetStallDisplay()
         {
             CreateFoods();
-
-            
+            CreateCustomer();
         }
         private void CreateFoods()
         {
@@ -319,28 +421,32 @@ namespace Project_OOP_Trio_Rawr
 
         }
 
+        private void newGameToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            CreateCustomer();
+        }
         private void CreateCustomerOrder()
         {
-            Random bilrandomitemtpe = new Random();
+            Random bilrandomitemtpe= new Random();
             int hasilrandomitemtype = bilrandomitemtpe.Next(0, 3);
-
-            if (hasilrandomitemtype == 0)
+            
+            if(hasilrandomitemtype ==0)
             {
-                if (customers.Type == "male")
+                if(customers.Type == "male")
                 {
                     // customers.orderitem = listItem[0];
                 }
-                else if (customers.Type == "female")
+                else if(customers.Type == "female")
                 {
                     // customers.orderitem = listItem[1];
                 }
-                else if (customers.Type == "kid")
+                else if(customers.Type == "kid")
                 {
                     // customers.orderitem = listItem[2];
                 }
 
             }
-            else if (hasilrandomitemtype == 1)
+            else if(hasilrandomitemtype == 1)
             {
                 Random bilrandombeverage = new Random();
                 int hasilrandombeverages = bilrandombeverage.Next(3, 9);
@@ -355,9 +461,19 @@ namespace Project_OOP_Trio_Rawr
                 //if ((Merchandise)listofitems[hasilrandommerchandise]).Stock >0)
 
             }
+
         }
 
-        private void newGameToolStripMenuItem_Click(object sender, EventArgs e)
+        private void panel2_Paint_1(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void menuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
+        private void newGameToolStripMenuItem1_Click_1(object sender, EventArgs e)
         {
             this.BackgroundImage = null;
             panel1.Visible = true;
@@ -385,4 +501,6 @@ namespace Project_OOP_Trio_Rawr
             time.Add(-1);
         }
     }
+
+   
 }
