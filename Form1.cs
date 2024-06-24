@@ -51,9 +51,10 @@ namespace Project_OOP_Trio_Rawr
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            SetStallDisplay();
             panelDialog.Visible = false;
             labelDialog.Visible = false;
+            panel1.Visible = false;
+            panel2.Visible = false;
         }
 
         private void SetStallDisplay()
@@ -277,6 +278,11 @@ namespace Project_OOP_Trio_Rawr
         private void newGameToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.BackgroundImage = null;
+            panel1.Visible = true;
+            panel2.Visible = true;
+            panelDialog.Visible = true;
+            panel3.Visible = true;
+            panel5.Visible = true;
 
             CreatePlayer();
 
@@ -294,7 +300,7 @@ namespace Project_OOP_Trio_Rawr
             //play sound
         }
 
-        private void exitToolStripMenuItem_Click_1(object sender, EventArgs e)
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
         {
             this.Close();
         }

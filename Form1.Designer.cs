@@ -388,10 +388,9 @@
             this.panel2.Controls.Add(this.panel5);
             this.panel2.Controls.Add(this.pictureBoxCustomer);
             this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.menuStrip1);
-            this.panel2.Location = new System.Drawing.Point(-8, -4);
+            this.panel2.Location = new System.Drawing.Point(-8, 24);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(909, 262);
+            this.panel2.Size = new System.Drawing.Size(909, 234);
             this.panel2.TabIndex = 11;
             // 
             // panelDialog
@@ -471,7 +470,7 @@
             // 
             this.pictureBoxCustomer.BackColor = System.Drawing.Color.White;
             this.pictureBoxCustomer.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBoxCustomer.Location = new System.Drawing.Point(407, 140);
+            this.pictureBoxCustomer.Location = new System.Drawing.Point(407, 125);
             this.pictureBoxCustomer.Name = "pictureBoxCustomer";
             this.pictureBoxCustomer.Size = new System.Drawing.Size(142, 125);
             this.pictureBoxCustomer.TabIndex = 17;
@@ -534,15 +533,15 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.MistyRose;
+            this.menuStrip1.BackColor = System.Drawing.Color.Linen;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.gameToolStripMenuItem,
             this.exitToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(909, 28);
-            this.menuStrip1.TabIndex = 24;
+            this.menuStrip1.Size = new System.Drawing.Size(901, 28);
+            this.menuStrip1.TabIndex = 12;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // gameToolStripMenuItem
@@ -565,7 +564,7 @@
             this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
             this.exitToolStripMenuItem.Size = new System.Drawing.Size(47, 24);
             this.exitToolStripMenuItem.Text = "Exit";
-            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click_1);
+            this.exitToolStripMenuItem.Click += new System.EventHandler(this.exitToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -581,6 +580,7 @@
             this.Controls.Add(this.pictureBox8);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox4);
+            this.Controls.Add(this.menuStrip1);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
@@ -610,7 +610,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureFood7)).EndInit();
             this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
             this.panelDialog.ResumeLayout(false);
             this.panelDialog.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxOrder)).EndInit();
@@ -623,6 +622,7 @@
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
