@@ -158,10 +158,8 @@ namespace Project_OOP_Trio_Rawr
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            SetStallDisplay();
             panelDialog.Visible = false;
             labelDialog.Visible = false;
-            panel3.Visible = false;
             panel1.Visible = false;
             panel2.Visible = false;
         }
@@ -400,24 +398,30 @@ namespace Project_OOP_Trio_Rawr
         private void newGameToolStripMenuItem1_Click_1(object sender, EventArgs e)
         {
             this.BackgroundImage = null;
-
-            CreatePlayer();
-
+            panel1.Visible = true;
+            panel2.Visible = true;
+            panelDialog.Visible = true;
+            panel3.Visible = true;
+            panel5.Visible = true;
+            remainingcustomers = 5;
             label3.Visible = true;
             label1.Visible = true;
-
+            time = new Time(0, 5, 0);
+            timerGame.Start();
+            CreatePlayer();
             SetStallDisplay();
-
-            remainingcustomers = 5;
             label3.Text = "Remaining Customers: " + remainingcustomers.ToString();
-
-            //time = new Time(0,0,0);
-            //label1.Text= 
-
-            //play sound
         }
 
-     
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void timerGame_Tick(object sender, EventArgs e)
+        {
+            time.Add(-1);
+        }
     }
 
    
